@@ -1,0 +1,6 @@
+id	item	prespecified_or_old	actual	reason	effect
+D1	MAGMA SNP input header	old file had a header line (harmless "CHR not recognised" skip)	no header; read with use=1,4	explicit schema, header-free	none on results
+D2	Row parsing	awk whitespace split (shifted columns when rsids empty)	strict tab split, 13 fields enforced (0 violations)	this was the defect-adjacent bug	rows with empty rsids excluded as before; no shifted garbage IDs
+D3	Genome build	GRCh38 positions annotated against GRCh37 gene.loc	positions lifted GRCh38->GRCh37 with hg38ToHg19 chain	the intended correction	all gene-level results change
+D4	Lift tool	(unspecified) 	Python chain implementation, same-chromosome chains, highest-score block; validated against exact BIM (99.99% agreement)	UCSC liftOver binary not used	182,3xx variants/endpoint (0.9%) unmapped and dropped
+D5	Parallel execution	-	annotation and gene analysis run as separate processes (5 at a time)	throughput	none

@@ -1,0 +1,4384 @@
+{
+  "V2L042": {
+    "lead_gene": "LPA",
+    "gene_keywords": [
+      "apolipoprotein(a)",
+      "Lp(a)",
+      "plasminogen-like kringle domain",
+      "circulating lipoprotein particle"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "I73",
+      "stroke/cerebrovascular",
+      "atherosclerosis",
+      "dyslipidaemia",
+      "thrombosis"
+    ],
+    "biological_context": [
+      "plasma/circulating",
+      "coagulation"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "Lp(a) lipoprotein",
+      "atherosclerosis"
+    ],
+    "search_keywords": [
+      "LPA",
+      "IGF2R",
+      "PLG",
+      "SLC22A1",
+      "SLC22A3",
+      "apolipoprotein(a)",
+      "Lp(a)",
+      "plasminogen-like kringle domain",
+      "circulating lipoprotein particle",
+      "coronary artery disease",
+      "I73",
+      "stroke/cerebrovascular",
+      "atherosclerosis",
+      "dyslipidaemia",
+      "thrombosis",
+      "plasma/circulating",
+      "coagulation",
+      "Anchor",
+      "Lp(a) lipoprotein",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "Aortic/vascular",
+      "Cerebrovascular",
+      "angina",
+      "aortic aneurysm",
+      "aortic valve disease",
+      "hypertension",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "transient ischaemic attack",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L057": {
+    "lead_gene": "CDKN2B",
+    "gene_keywords": [
+      "CDKN2B",
+      "p15 CDK inhibitor",
+      "INK4 family",
+      "cell cycle arrest",
+      "vascular senescence"
+    ],
+    "locus_context_keywords": [
+      "9p21 CAD locus",
+      "CDKN2A co-locus",
+      "coronary artery disease",
+      "MI risk"
+    ],
+    "biological_context": [
+      "smooth muscle",
+      "endothelial"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "9p21 CAD locus",
+      "CDK inhibitor"
+    ],
+    "search_keywords": [
+      "CDKN2B",
+      "p15 CDK inhibitor",
+      "INK4 family",
+      "cell cycle arrest",
+      "vascular senescence",
+      "9p21 CAD locus",
+      "CDKN2A co-locus",
+      "coronary artery disease",
+      "MI risk",
+      "smooth muscle",
+      "endothelial",
+      "Anchor",
+      "CDK inhibitor",
+      "Coronary",
+      "Heart failure",
+      "Valve",
+      "Aortic/vascular",
+      "angina",
+      "aortic valve disease",
+      "heart failure",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "Qiao",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "hypertension",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L084": {
+    "lead_gene": "FES",
+    "gene_keywords": [
+      "FES"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "blood pressure/hypertension",
+      "coagulation factor processing",
+      "PCSK9",
+      "FURIN"
+    ],
+    "biological_context": [
+      "endothelial",
+      "secretory pathway"
+    ],
+    "display_keywords": [
+      "Functional",
+      "proprotein convertase",
+      "PCSK9/TGF-β processing"
+    ],
+    "search_keywords": [
+      "FES",
+      "FURIN",
+      "coronary artery disease",
+      "blood pressure/hypertension",
+      "coagulation factor processing",
+      "PCSK9",
+      "endothelial",
+      "secretory pathway",
+      "Functional",
+      "proprotein convertase",
+      "PCSK9/TGF-β processing",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "transient ischaemic attack",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "FURIN",
+    "locus_context_note": ""
+  },
+  "V2L097": {
+    "lead_gene": "APOE",
+    "gene_keywords": [
+      "apolipoprotein E",
+      "ApoE",
+      "LDL receptor ligand",
+      "lipid clearance protein",
+      "VLDL/IDL metabolism"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "stroke/cerebrovascular",
+      "dyslipidaemia",
+      "PAD",
+      "atherosclerosis"
+    ],
+    "biological_context": [
+      "plasma/circulating",
+      "hepatic"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "apolipoprotein E",
+      "lipid clearance"
+    ],
+    "search_keywords": [
+      "APOE",
+      "APOC1",
+      "FBXO46",
+      "RSPH6A",
+      "TOMM40",
+      "apolipoprotein E",
+      "ApoE",
+      "LDL receptor ligand",
+      "lipid clearance protein",
+      "VLDL/IDL metabolism",
+      "coronary artery disease",
+      "stroke/cerebrovascular",
+      "dyslipidaemia",
+      "PAD",
+      "atherosclerosis",
+      "plasma/circulating",
+      "hepatic",
+      "Anchor",
+      "lipid clearance",
+      "Coronary",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "heart failure",
+      "hypertension",
+      "transient ischaemic attack",
+      "venous thromboembolism",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L080": {
+    "lead_gene": "MARK3",
+    "gene_keywords": [
+      "MARK3",
+      "microtubule affinity-regulating kinase",
+      "AMPK-related kinase",
+      "cell polarity kinase"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "chr14q32"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "Unresolved",
+      "MARK3 kinase",
+      "cell polarity/AMPK-related"
+    ],
+    "search_keywords": [
+      "MARK3",
+      "BAG5",
+      "CKB",
+      "KLC1",
+      "TRMT61A",
+      "microtubule affinity-regulating kinase",
+      "AMPK-related kinase",
+      "cell polarity kinase",
+      "coronary artery disease",
+      "chr14q32",
+      "systemic/multi-tissue",
+      "Unresolved",
+      "MARK3 kinase",
+      "cell polarity/AMPK-related",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "Aortic/vascular",
+      "Thrombotic",
+      "atrial fibrillation",
+      "angina",
+      "atherosclerosis",
+      "cardiomyopathy",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "FinnGen",
+      "transient ischaemic attack",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L086": {
+    "lead_gene": "CFDP1",
+    "gene_keywords": [
+      "CFDP1",
+      "craniofacial development protein",
+      "BAH domain chromatin protein",
+      "heterochromatin associated"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "chr16q24 CAD locus",
+      "transcriptional regulation"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "Functional",
+      "chromatin/heterochromatin regulator",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "CFDP1",
+      "CHST6",
+      "TMEM170A",
+      "BCAR1",
+      "craniofacial development protein",
+      "BAH domain chromatin protein",
+      "heterochromatin associated",
+      "coronary artery disease",
+      "chr16q24 CAD locus",
+      "transcriptional regulation",
+      "chromatin/nuclear",
+      "Functional",
+      "chromatin/heterochromatin regulator",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "Aortic/vascular",
+      "angina",
+      "aortic aneurysm",
+      "aortic valve disease",
+      "hypertension",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "heart failure",
+      "venous thromboembolism",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L036": {
+    "lead_gene": "ATP6V1G2",
+    "gene_keywords": [
+      "ATP6V1G2"
+    ],
+    "locus_context_keywords": [
+      "6p21 HLA region",
+      "immune-metabolic pleiotropy",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "BAG6"
+    ],
+    "biological_context": [
+      "immune/haematopoietic",
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "Unresolved",
+      "MHC class III region",
+      "proteostasis"
+    ],
+    "search_keywords": [
+      "ATP6V1G2",
+      "AGER",
+      "AIF1",
+      "BAG6",
+      "C2",
+      "C6orf15",
+      "C6orf48",
+      "CCHCR1",
+      "DDX39B",
+      "EHMT2",
+      "HLA-B",
+      "HLA-C",
+      "HLA-DQA1",
+      "HLA-DQB1",
+      "HLA-DRA",
+      "HSPA1A",
+      "HSPA1L",
+      "LSM2",
+      "LST1",
+      "LTA",
+      "LY6G5B",
+      "LY6G5C",
+      "MCCD1",
+      "MICA",
+      "MICB",
+      "MSH5",
+      "NELFE",
+      "NFKBIL1",
+      "PRRC2A",
+      "PSORS1C2",
+      "TNXB",
+      "MHC/6p21 region",
+      "6p21 HLA region",
+      "immune-metabolic pleiotropy",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "immune/haematopoietic",
+      "systemic/multi-tissue",
+      "Unresolved",
+      "MHC class III region",
+      "proteostasis",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Aortic/vascular",
+      "atrial fibrillation",
+      "angina",
+      "hypertension",
+      "other peripheral vascular disease (I73)",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "heart failure",
+      "myocardial infarction",
+      "venous thromboembolism",
+      "coloc not assessed"
+    ],
+    "locus_candidate": "BAG6",
+    "locus_context_note": ""
+  },
+  "V2L090": {
+    "lead_gene": "ZNF652",
+    "gene_keywords": [
+      "ZNF652",
+      "C2H2 zinc finger TF",
+      "transcriptional repressor",
+      "chr17q21"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "transcriptional regulation"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "Human-genetic",
+      "zinc finger TF",
+      "transcriptional regulation"
+    ],
+    "search_keywords": [
+      "ZNF652",
+      "ABI3",
+      "ATP5G1",
+      "GNGT2",
+      "HOXB3",
+      "IGF2BP1",
+      "PHB",
+      "TTLL6",
+      "C2H2 zinc finger TF",
+      "transcriptional repressor",
+      "chr17q21",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "transcriptional regulation",
+      "chromatin/nuclear",
+      "Human-genetic",
+      "zinc finger TF",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L020": {
+    "lead_gene": "CARF",
+    "gene_keywords": [
+      "CARF"
+    ],
+    "locus_context_keywords": [
+      "aortic aneurysm",
+      "coronary artery disease",
+      "chr2q33",
+      "ICA1L"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "Unresolved",
+      "chromatin remodelling (WDR12)",
+      "aortic aneurysm"
+    ],
+    "search_keywords": [
+      "CARF",
+      "ICA1L",
+      "NBEAL1",
+      "WDR12",
+      "aortic aneurysm",
+      "coronary artery disease",
+      "chr2q33",
+      "chromatin/nuclear",
+      "Unresolved",
+      "chromatin remodelling (WDR12)",
+      "Coronary",
+      "Aortic/vascular",
+      "Cerebrovascular",
+      "angina",
+      "ischaemic stroke",
+      "myocardial infarction",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "ICA1L",
+    "locus_context_note": ""
+  },
+  "V2L004": {
+    "lead_gene": "CELSR2",
+    "gene_keywords": [
+      "CELSR2",
+      "Flamingo cadherin",
+      "planar cell polarity receptor",
+      "protocadherin GPCR"
+    ],
+    "locus_context_keywords": [
+      "SORT1",
+      "sortilin",
+      "LDL receptor",
+      "hepatic LDL-C",
+      "PCSK9",
+      "lipid export",
+      "chr1p13"
+    ],
+    "biological_context": [
+      "hepatic",
+      "plasma/circulating"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "sortilin/LDL pathway",
+      "lipid metabolism"
+    ],
+    "search_keywords": [
+      "CELSR2",
+      "AMIGO1",
+      "SORT1",
+      "Flamingo cadherin",
+      "planar cell polarity receptor",
+      "protocadherin GPCR",
+      "sortilin",
+      "LDL receptor",
+      "hepatic LDL-C",
+      "PCSK9",
+      "lipid export",
+      "chr1p13",
+      "hepatic",
+      "plasma/circulating",
+      "Anchor",
+      "sortilin/LDL pathway",
+      "lipid metabolism",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "SORT1",
+    "locus_context_note": "Lead gene CELSR2 is a planar cell polarity receptor (Flamingo cadherin); the established causal gene at this locus is SORT1 (sortilin), a major hepatic regulator of LDL-C and PCSK9."
+  },
+  "V2L074": {
+    "lead_gene": "ACAD10",
+    "gene_keywords": [
+      "ACAD10"
+    ],
+    "locus_context_keywords": [
+      "platelet biology",
+      "coronary artery disease",
+      "I73",
+      "blood pressure/hypertension",
+      "VTE",
+      "SH2B3"
+    ],
+    "biological_context": [
+      "immune/haematopoietic",
+      "platelet"
+    ],
+    "display_keywords": [
+      "Human-genetic",
+      "LNK/SH2B3 adaptor",
+      "JAK-STAT/haematopoietic"
+    ],
+    "search_keywords": [
+      "ACAD10",
+      "ALDH2",
+      "ATXN2",
+      "BRAP",
+      "CUX2",
+      "ERP29",
+      "FAM109A",
+      "HECTD4",
+      "MAPKAPK5",
+      "NAA25",
+      "PTPN11",
+      "RPL6",
+      "SH2B3",
+      "TMEM116",
+      "TRAFD1",
+      "platelet biology",
+      "coronary artery disease",
+      "I73",
+      "blood pressure/hypertension",
+      "VTE",
+      "immune/haematopoietic",
+      "platelet",
+      "Human-genetic",
+      "LNK/SH2B3 adaptor",
+      "JAK-STAT/haematopoietic",
+      "Coronary",
+      "Pressure",
+      "Aortic/vascular",
+      "Thrombotic",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "angina",
+      "transient ischaemic attack",
+      "venous thromboembolism",
+      "no coloc"
+    ],
+    "locus_candidate": "SH2B3",
+    "locus_context_note": ""
+  },
+  "V2L075": {
+    "lead_gene": "HNF1A",
+    "gene_keywords": [
+      "HNF1A",
+      "hepatocyte nuclear factor 1A",
+      "homeodomain TF",
+      "liver-specific transcription",
+      "MODY3 gene"
+    ],
+    "locus_context_keywords": [
+      "LDL-C",
+      "CRP",
+      "coagulation factors",
+      "VTE",
+      "dyslipidaemia",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "hepatic"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "hepatic TF",
+      "lipid/coagulation regulation"
+    ],
+    "search_keywords": [
+      "HNF1A",
+      "C12orf43",
+      "hepatocyte nuclear factor 1A",
+      "homeodomain TF",
+      "liver-specific transcription",
+      "MODY3 gene",
+      "LDL-C",
+      "CRP",
+      "coagulation factors",
+      "VTE",
+      "dyslipidaemia",
+      "coronary artery disease",
+      "hepatic",
+      "Anchor",
+      "hepatic TF",
+      "lipid/coagulation regulation",
+      "Coronary",
+      "Heart failure",
+      "Valve",
+      "Thrombotic",
+      "angina",
+      "phlebitis/thrombophlebitis",
+      "heart failure",
+      "myocardial infarction",
+      "mitral valve disease",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "hypertension",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L083": {
+    "lead_gene": "IREB2",
+    "gene_keywords": [
+      "IREB2"
+    ],
+    "locus_context_keywords": [
+      "smooth muscle cell migration",
+      "atherosclerosis",
+      "coronary artery disease",
+      "ECM remodelling",
+      "ADAMTS7"
+    ],
+    "biological_context": [
+      "smooth muscle",
+      "extracellular matrix"
+    ],
+    "display_keywords": [
+      "Unresolved",
+      "ADAMTS metalloprotease",
+      "smooth muscle migration inhibition"
+    ],
+    "search_keywords": [
+      "IREB2",
+      "ADAMTS7",
+      "CHRNB4",
+      "MORF4L1",
+      "smooth muscle cell migration",
+      "atherosclerosis",
+      "coronary artery disease",
+      "ECM remodelling",
+      "smooth muscle",
+      "extracellular matrix",
+      "Unresolved",
+      "ADAMTS metalloprotease",
+      "smooth muscle migration inhibition",
+      "Coronary",
+      "Heart failure",
+      "Aortic/vascular",
+      "aortic aneurysm",
+      "heart failure",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "PLEIO",
+      "FinnGen",
+      "angina",
+      "hypertension",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "ADAMTS7",
+    "locus_context_note": ""
+  },
+  "V2L044": {
+    "lead_gene": "TBX20",
+    "gene_keywords": [
+      "TBX20",
+      "T-box transcription factor",
+      "cardiac chamber specification TF",
+      "cardiomyocyte TF"
+    ],
+    "locus_context_keywords": [
+      "heart failure",
+      "atrial fibrillation",
+      "cardiomyopathy",
+      "congenital heart disease",
+      "valve biology"
+    ],
+    "biological_context": [
+      "cardiac myocyte"
+    ],
+    "display_keywords": [
+      "Functional",
+      "T-box cardiac TF",
+      "heart development"
+    ],
+    "search_keywords": [
+      "TBX20",
+      "T-box transcription factor",
+      "cardiac chamber specification TF",
+      "cardiomyocyte TF",
+      "heart failure",
+      "atrial fibrillation",
+      "cardiomyopathy",
+      "congenital heart disease",
+      "valve biology",
+      "cardiac myocyte",
+      "Functional",
+      "T-box cardiac TF",
+      "heart development",
+      "Coronary",
+      "Pressure",
+      "Heart failure",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L023": {
+    "lead_gene": "DALRD3",
+    "gene_keywords": [
+      "DALRD3"
+    ],
+    "locus_context_keywords": [
+      "stroke/cerebrovascular",
+      "vascular integrity",
+      "ECM organization",
+      "LAMB2"
+    ],
+    "biological_context": [
+      "extracellular matrix"
+    ],
+    "display_keywords": [
+      "Unresolved",
+      "laminin ECM",
+      "basement membrane"
+    ],
+    "search_keywords": [
+      "DALRD3",
+      "CISH",
+      "LAMB2",
+      "MST1",
+      "RBM5",
+      "TRAIP",
+      "RHOA",
+      "stroke/cerebrovascular",
+      "vascular integrity",
+      "ECM organization",
+      "extracellular matrix",
+      "Unresolved",
+      "laminin ECM",
+      "basement membrane",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "mitral valve disease",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "LAMB2",
+    "locus_context_note": ""
+  },
+  "V2L089": {
+    "lead_gene": "ORMDL3",
+    "gene_keywords": [
+      "ORMDL3",
+      "serine palmitoyltransferase regulator",
+      "ceramide homeostasis",
+      "ER sphingolipid sensor",
+      "ORM family"
+    ],
+    "locus_context_keywords": [
+      "17q21 asthma/CVD co-locus",
+      "coronary artery disease",
+      "lipid homeostasis"
+    ],
+    "biological_context": [
+      "secretory pathway",
+      "immune/haematopoietic"
+    ],
+    "display_keywords": [
+      "Emerging",
+      "ORMDL3",
+      "sphingolipid/ceramide homeostasis"
+    ],
+    "search_keywords": [
+      "ORMDL3",
+      "IKZF3",
+      "MED24",
+      "serine palmitoyltransferase regulator",
+      "ceramide homeostasis",
+      "ER sphingolipid sensor",
+      "ORM family",
+      "17q21 asthma/CVD co-locus",
+      "coronary artery disease",
+      "lipid homeostasis",
+      "secretory pathway",
+      "immune/haematopoietic",
+      "Emerging",
+      "sphingolipid/ceramide homeostasis",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "Thrombotic",
+      "atrial fibrillation",
+      "heart failure",
+      "hypertension",
+      "venous embolism/thrombosis",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L010": {
+    "lead_gene": "CFHR3",
+    "gene_keywords": [
+      "CFHR3"
+    ],
+    "locus_context_keywords": [
+      "CFHR2",
+      "CFHR3"
+    ],
+    "biological_context": [
+      "Cerebrovascular"
+    ],
+    "display_keywords": [
+      "Emerging",
+      "Cerebrovascular",
+      "q<0.001"
+    ],
+    "search_keywords": [
+      "CFHR3",
+      "CFHR2",
+      "Cerebrovascular",
+      "Emerging",
+      "q<0.001",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L037": {
+    "lead_gene": "C6orf106",
+    "gene_keywords": [
+      "ILRUN",
+      "C6orf106",
+      "IRF3 inhibitor",
+      "innate immune regulator",
+      "interferon response suppressor"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "stroke/cerebrovascular",
+      "innate immune-CVD link",
+      "chr6q13"
+    ],
+    "biological_context": [
+      "immune/haematopoietic"
+    ],
+    "display_keywords": [
+      "Human-genetic",
+      "innate immune regulation",
+      "hypertension/stroke"
+    ],
+    "search_keywords": [
+      "C6orf106",
+      "PACSIN1",
+      "SNRPC",
+      "UHRF1BP1",
+      "ILRUN",
+      "IRF3 inhibitor",
+      "innate immune regulator",
+      "interferon response suppressor",
+      "blood pressure/hypertension",
+      "stroke/cerebrovascular",
+      "innate immune-CVD link",
+      "chr6q13",
+      "immune/haematopoietic",
+      "Human-genetic",
+      "innate immune regulation",
+      "hypertension/stroke",
+      "Coronary",
+      "Pressure",
+      "Thrombotic",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "venous embolism/thrombosis",
+      "Qiao",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "heart failure",
+      "myocardial infarction",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L063": {
+    "lead_gene": "HTRA1",
+    "gene_keywords": [
+      "HtrA1",
+      "serine protease",
+      "ECM component cleavage",
+      "TGF-beta inhibitor",
+      "CARASIL gene"
+    ],
+    "locus_context_keywords": [
+      "cerebral small vessel disease",
+      "stroke",
+      "vascular integrity",
+      "ECM remodelling"
+    ],
+    "biological_context": [
+      "extracellular matrix"
+    ],
+    "display_keywords": [
+      "Human-genetic",
+      "HtrA1 serine protease",
+      "ECM remodelling"
+    ],
+    "search_keywords": [
+      "HTRA1",
+      "ARMS2",
+      "DMBT1",
+      "HtrA1",
+      "serine protease",
+      "ECM component cleavage",
+      "TGF-beta inhibitor",
+      "CARASIL gene",
+      "cerebral small vessel disease",
+      "stroke",
+      "vascular integrity",
+      "ECM remodelling",
+      "extracellular matrix",
+      "Human-genetic",
+      "HtrA1 serine protease",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L095": {
+    "lead_gene": "LDLR",
+    "gene_keywords": [
+      "LDL receptor",
+      "LDLR",
+      "familial hypercholesterolaemia gene",
+      "hepatic LDL uptake",
+      "PCSK9 target"
+    ],
+    "locus_context_keywords": [
+      "cholesterol/LDL-C",
+      "coronary artery disease",
+      "dyslipidaemia",
+      "I73",
+      "statin target"
+    ],
+    "biological_context": [
+      "hepatic",
+      "plasma/circulating"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "LDL receptor",
+      "familial hypercholesterolaemia"
+    ],
+    "search_keywords": [
+      "LDLR",
+      "KANK2",
+      "SLC44A2",
+      "SMARCA4",
+      "LDL receptor",
+      "familial hypercholesterolaemia gene",
+      "hepatic LDL uptake",
+      "PCSK9 target",
+      "cholesterol/LDL-C",
+      "coronary artery disease",
+      "dyslipidaemia",
+      "I73",
+      "statin target",
+      "hepatic",
+      "plasma/circulating",
+      "Anchor",
+      "familial hypercholesterolaemia",
+      "Coronary",
+      "Aortic/vascular",
+      "angina",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "hypertension",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L052": {
+    "lead_gene": "LPL",
+    "gene_keywords": [
+      "lipoprotein lipase",
+      "LPL",
+      "triglyceride hydrolysis",
+      "VLDL lipolysis",
+      "HDL generation"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "dyslipidaemia",
+      "hypertriglyceridaemia",
+      "PAD"
+    ],
+    "biological_context": [
+      "plasma/circulating",
+      "endothelial"
+    ],
+    "display_keywords": [
+      "Anchor",
+      "lipoprotein lipase",
+      "triglyceride metabolism"
+    ],
+    "search_keywords": [
+      "LPL",
+      "lipoprotein lipase",
+      "triglyceride hydrolysis",
+      "VLDL lipolysis",
+      "HDL generation",
+      "coronary artery disease",
+      "dyslipidaemia",
+      "hypertriglyceridaemia",
+      "PAD",
+      "plasma/circulating",
+      "endothelial",
+      "Anchor",
+      "triglyceride metabolism",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "heart failure",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L003": {
+    "lead_gene": "PPAP2B",
+    "gene_keywords": [
+      "lipid phosphatase",
+      "PLPP3",
+      "sphingosine-1-phosphate",
+      "S1P",
+      "lysophosphatidic acid",
+      "LPA degradation",
+      "phospholipid phosphatase"
+    ],
+    "locus_context_keywords": [
+      "endothelium",
+      "vascular biology",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "endothelial"
+    ],
+    "display_keywords": [
+      "lipid phosphatase",
+      "S1P signalling",
+      "endothelial biology"
+    ],
+    "search_keywords": [
+      "PPAP2B",
+      "lipid phosphatase",
+      "PLPP3",
+      "sphingosine-1-phosphate",
+      "S1P",
+      "lysophosphatidic acid",
+      "LPA degradation",
+      "phospholipid phosphatase",
+      "endothelium",
+      "vascular biology",
+      "coronary artery disease",
+      "endothelial",
+      "S1P signalling",
+      "endothelial biology",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L087": {
+    "lead_gene": "SMG6",
+    "gene_keywords": [
+      "SMG6",
+      "NMD endonuclease",
+      "nonsense-mediated mRNA decay",
+      "PIN domain phosphodiesterase",
+      "mRNA surveillance"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "atrial fibrillation"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "NMD/mRNA surveillance",
+      "RNA quality control",
+      "hypertension/CAD"
+    ],
+    "search_keywords": [
+      "SMG6",
+      "HIC1",
+      "NMD endonuclease",
+      "nonsense-mediated mRNA decay",
+      "PIN domain phosphodiesterase",
+      "mRNA surveillance",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "systemic/multi-tissue",
+      "NMD/mRNA surveillance",
+      "RNA quality control",
+      "hypertension/CAD",
+      "Coronary",
+      "Pressure",
+      "Heart failure",
+      "angina",
+      "heart failure",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L055": {
+    "lead_gene": "ZFPM2",
+    "gene_keywords": [
+      "ZFPM2",
+      "FOG2",
+      "GATA4 transcriptional co-regulator",
+      "zinc finger GATA modulator",
+      "cardiac development regulator"
+    ],
+    "locus_context_keywords": [
+      "atrial fibrillation",
+      "cardiomyopathy",
+      "congenital heart disease"
+    ],
+    "biological_context": [
+      "cardiac myocyte"
+    ],
+    "display_keywords": [
+      "GATA4 co-regulator",
+      "cardiac development",
+      "AF/cardiomyopathy"
+    ],
+    "search_keywords": [
+      "ZFPM2",
+      "FOG2",
+      "GATA4 transcriptional co-regulator",
+      "zinc finger GATA modulator",
+      "cardiac development regulator",
+      "atrial fibrillation",
+      "cardiomyopathy",
+      "congenital heart disease",
+      "cardiac myocyte",
+      "GATA4 co-regulator",
+      "cardiac development",
+      "AF/cardiomyopathy",
+      "Coronary",
+      "Arrhythmia",
+      "Thrombotic",
+      "angina",
+      "coronary artery disease",
+      "phlebitis/thrombophlebitis",
+      "myocardial infarction",
+      "FinnGen",
+      "hypertension",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L009": {
+    "lead_gene": "NME7",
+    "gene_keywords": [
+      "NME7"
+    ],
+    "locus_context_keywords": [
+      "blood pressure",
+      "DVT",
+      "endothelium",
+      "coronary artery disease",
+      "chr1q24",
+      "ATP1B1"
+    ],
+    "biological_context": [
+      "endothelial",
+      "smooth muscle"
+    ],
+    "display_keywords": [
+      "Na⁺/K⁺-ATPase",
+      "ion transport",
+      "blood pressure/DVT"
+    ],
+    "search_keywords": [
+      "NME7",
+      "ATP1B1",
+      "CCDC181",
+      "blood pressure",
+      "DVT",
+      "endothelium",
+      "coronary artery disease",
+      "chr1q24",
+      "endothelial",
+      "smooth muscle",
+      "Na⁺/K⁺-ATPase",
+      "ion transport",
+      "blood pressure/DVT",
+      "Coronary",
+      "Pressure",
+      "Thrombotic",
+      "angina",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "Qiao",
+      "FinnGen",
+      "atrial fibrillation",
+      "myocardial infarction",
+      "venous thromboembolism",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "ATP1B1",
+    "locus_context_note": ""
+  },
+  "V2L077": {
+    "lead_gene": "COL4A1",
+    "gene_keywords": [
+      "collagen IV alpha-1",
+      "COL4A1",
+      "basement membrane collagen",
+      "type IV collagen network"
+    ],
+    "locus_context_keywords": [
+      "cerebral small vessel disease",
+      "stroke",
+      "HANAC syndrome",
+      "vascular integrity"
+    ],
+    "biological_context": [
+      "extracellular matrix",
+      "endothelial"
+    ],
+    "display_keywords": [
+      "collagen IV basement membrane",
+      "cerebrovascular integrity",
+      "stroke"
+    ],
+    "search_keywords": [
+      "COL4A1",
+      "collagen IV alpha-1",
+      "basement membrane collagen",
+      "type IV collagen network",
+      "cerebral small vessel disease",
+      "stroke",
+      "HANAC syndrome",
+      "vascular integrity",
+      "extracellular matrix",
+      "endothelial",
+      "collagen IV basement membrane",
+      "cerebrovascular integrity",
+      "Coronary",
+      "Arrhythmia",
+      "Cerebrovascular",
+      "atrial fibrillation",
+      "angina",
+      "coronary artery disease",
+      "ischaemic stroke",
+      "myocardial infarction",
+      "PLEIO",
+      "FinnGen",
+      "hypertension",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L093": {
+    "lead_gene": "DYM",
+    "gene_keywords": [
+      "dymeclin",
+      "DYM",
+      "Golgi-localised scaffolding protein",
+      "Dyggve-Melchior-Clausen syndrome gene"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "CTAS-prioritised signal",
+      "chr18q21",
+      "mechanism unclear"
+    ],
+    "biological_context": [
+      "secretory pathway"
+    ],
+    "display_keywords": [
+      "Golgi-associated protein",
+      "skeletal dysplasia gene",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "DYM",
+      "RPL17-C18orf32",
+      "dymeclin",
+      "Golgi-localised scaffolding protein",
+      "Dyggve-Melchior-Clausen syndrome gene",
+      "coronary artery disease",
+      "CTAS-prioritised signal",
+      "chr18q21",
+      "mechanism unclear",
+      "secretory pathway",
+      "Golgi-associated protein",
+      "skeletal dysplasia gene",
+      "Coronary",
+      "Pressure",
+      "Cerebrovascular",
+      "angina",
+      "hypertension",
+      "ischaemic stroke",
+      "myocardial infarction",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L025": {
+    "lead_gene": "PCCB",
+    "gene_keywords": [
+      "propionyl-CoA carboxylase beta subunit",
+      "PCCB",
+      "mitochondrial carboxylase",
+      "branched-chain amino acid catabolism",
+      "biotin-dependent enzyme"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "mitochondrial energetics"
+    ],
+    "biological_context": [
+      "mitochondrial"
+    ],
+    "display_keywords": [
+      "mitochondrial carboxylase",
+      "fatty acid/amino acid metabolism",
+      "hypertension/CAD"
+    ],
+    "search_keywords": [
+      "PCCB",
+      "NCK1",
+      "PPP2R3A",
+      "SLC35G2",
+      "STAG1",
+      "propionyl-CoA carboxylase beta subunit",
+      "mitochondrial carboxylase",
+      "branched-chain amino acid catabolism",
+      "biotin-dependent enzyme",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "mitochondrial energetics",
+      "mitochondrial",
+      "fatty acid/amino acid metabolism",
+      "hypertension/CAD",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L011": {
+    "lead_gene": "MIA3",
+    "gene_keywords": [
+      "TANGO1",
+      "MIA3",
+      "COPII cargo receptor",
+      "collagen secretion",
+      "ER export site"
+    ],
+    "locus_context_keywords": [
+      "ECM organization",
+      "coronary artery disease",
+      "vascular integrity",
+      "chr1q41"
+    ],
+    "biological_context": [
+      "extracellular matrix",
+      "fibroblast/remodelling"
+    ],
+    "display_keywords": [
+      "collagen secretion",
+      "ER cargo receptor",
+      "ECM/vascular"
+    ],
+    "search_keywords": [
+      "MIA3",
+      "AIDA",
+      "FAM177B",
+      "TANGO1",
+      "COPII cargo receptor",
+      "collagen secretion",
+      "ER export site",
+      "ECM organization",
+      "coronary artery disease",
+      "vascular integrity",
+      "chr1q41",
+      "extracellular matrix",
+      "fibroblast/remodelling",
+      "ER cargo receptor",
+      "ECM/vascular",
+      "Coronary",
+      "Heart failure",
+      "angina",
+      "heart failure",
+      "myocardial infarction",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "venous thromboembolism",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L070": {
+    "lead_gene": "ARHGEF12",
+    "gene_keywords": [
+      "LARG",
+      "ARHGEF12",
+      "RhoA GEF",
+      "leukemia-associated RhoGEF",
+      "G protein-coupled RhoGEF"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "ROCK pathway",
+      "heart failure",
+      "vascular smooth muscle"
+    ],
+    "biological_context": [
+      "smooth muscle"
+    ],
+    "display_keywords": [
+      "LARG RhoGEF",
+      "RhoA/ROCK pathway",
+      "blood pressure/HF"
+    ],
+    "search_keywords": [
+      "ARHGEF12",
+      "TMEM136",
+      "LARG",
+      "RhoA GEF",
+      "leukemia-associated RhoGEF",
+      "G protein-coupled RhoGEF",
+      "blood pressure/hypertension",
+      "ROCK pathway",
+      "heart failure",
+      "vascular smooth muscle",
+      "smooth muscle",
+      "LARG RhoGEF",
+      "RhoA/ROCK pathway",
+      "blood pressure/HF",
+      "Coronary",
+      "Heart failure",
+      "angina",
+      "coronary artery disease",
+      "myocardial infarction",
+      "FinnGen",
+      "ischaemic stroke",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L050": {
+    "lead_gene": "KCNH2",
+    "gene_keywords": [
+      "hERG",
+      "KCNH2",
+      "IKr cardiac potassium channel",
+      "long QT syndrome 2",
+      "cardiac repolarisation"
+    ],
+    "locus_context_keywords": [
+      "arrhythmia",
+      "atrial fibrillation",
+      "drug-induced QT prolongation"
+    ],
+    "biological_context": [
+      "cardiac myocyte"
+    ],
+    "display_keywords": [
+      "hERG K⁺ channel",
+      "cardiac repolarisation",
+      "arrhythmia/long QT"
+    ],
+    "search_keywords": [
+      "KCNH2",
+      "AOC1",
+      "hERG",
+      "IKr cardiac potassium channel",
+      "long QT syndrome 2",
+      "cardiac repolarisation",
+      "arrhythmia",
+      "atrial fibrillation",
+      "drug-induced QT prolongation",
+      "cardiac myocyte",
+      "hERG K⁺ channel",
+      "arrhythmia/long QT",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "Valve",
+      "Aortic/vascular",
+      "aortic valve disease",
+      "heart failure",
+      "hypertension",
+      "other peripheral vascular disease (I73)",
+      "Qiao",
+      "Liu",
+      "FinnGen",
+      "angina",
+      "coronary artery disease",
+      "myocardial infarction",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L099": {
+    "lead_gene": "ZNF471",
+    "gene_keywords": [
+      "ZNF471"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "CTAS-prioritised multi-trait signal",
+      "ZFP28"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "KRAB-ZNF repressor",
+      "chromatin/transcriptional regulation",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "ZNF471",
+      "ZFP28",
+      "ZNF470",
+      "ZFP28;ZNF470",
+      "coronary artery disease",
+      "CTAS-prioritised multi-trait signal",
+      "chromatin/nuclear",
+      "KRAB-ZNF repressor",
+      "chromatin/transcriptional regulation",
+      "Coronary",
+      "Heart failure",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "cardiomyopathy",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "ZFP28",
+    "locus_context_note": ""
+  },
+  "V2L056": {
+    "lead_gene": "PTK2",
+    "gene_keywords": [
+      "focal adhesion kinase",
+      "FAK",
+      "PTK2",
+      "integrin signalling kinase",
+      "tyrosine kinase"
+    ],
+    "locus_context_keywords": [
+      "endothelial shear stress response",
+      "angiogenesis",
+      "vascular homeostasis",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "endothelial"
+    ],
+    "display_keywords": [
+      "focal adhesion kinase",
+      "endothelial shear stress",
+      "vascular homeostasis"
+    ],
+    "search_keywords": [
+      "PTK2",
+      "focal adhesion kinase",
+      "FAK",
+      "integrin signalling kinase",
+      "tyrosine kinase",
+      "endothelial shear stress response",
+      "angiogenesis",
+      "vascular homeostasis",
+      "coronary artery disease",
+      "endothelial",
+      "endothelial shear stress",
+      "Pressure",
+      "Arrhythmia",
+      "Valve",
+      "Aortic/vascular",
+      "atrial fibrillation",
+      "aortic aneurysm",
+      "aortic valve disease",
+      "hypertension",
+      "Liu",
+      "FinnGen",
+      "heart failure",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L060": {
+    "lead_gene": "ABO",
+    "gene_keywords": [
+      "ABO blood group glycosyltransferase",
+      "alpha-1,3-galactosyltransferase",
+      "blood group antigen biosynthesis"
+    ],
+    "locus_context_keywords": [
+      "von Willebrand factor",
+      "VWF levels",
+      "VTE",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "thrombosis"
+    ],
+    "biological_context": [
+      "plasma/circulating",
+      "coagulation"
+    ],
+    "display_keywords": [
+      "ABO blood group",
+      "VWF/coagulation",
+      "multi-trait CVD"
+    ],
+    "search_keywords": [
+      "ABO",
+      "ABO blood group glycosyltransferase",
+      "alpha-1,3-galactosyltransferase",
+      "blood group antigen biosynthesis",
+      "von Willebrand factor",
+      "VWF levels",
+      "VTE",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "thrombosis",
+      "plasma/circulating",
+      "coagulation",
+      "ABO blood group",
+      "VWF/coagulation",
+      "multi-trait CVD",
+      "Coronary",
+      "Heart failure",
+      "Thrombotic",
+      "phlebitis/thrombophlebitis",
+      "heart failure",
+      "myocardial infarction",
+      "venous embolism/thrombosis",
+      "venous thromboembolism",
+      "Qiao",
+      "Liu",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L034": {
+    "lead_gene": "PHACTR1",
+    "gene_keywords": [
+      "PHACTR1",
+      "PP1 regulatory protein",
+      "actin-binding scaffold",
+      "PHACTR family"
+    ],
+    "locus_context_keywords": [
+      "endothelial shear stress",
+      "coronary artery disease",
+      "blood pressure",
+      "smooth muscle biology"
+    ],
+    "biological_context": [
+      "endothelial",
+      "smooth muscle"
+    ],
+    "display_keywords": [
+      "PP1/actin regulator",
+      "endothelial biology",
+      "coronary/BP pleiotropy"
+    ],
+    "search_keywords": [
+      "PHACTR1",
+      "PP1 regulatory protein",
+      "actin-binding scaffold",
+      "PHACTR family",
+      "endothelial shear stress",
+      "coronary artery disease",
+      "blood pressure",
+      "smooth muscle biology",
+      "endothelial",
+      "smooth muscle",
+      "PP1/actin regulator",
+      "endothelial biology",
+      "coronary/BP pleiotropy",
+      "Coronary",
+      "Heart failure",
+      "angina",
+      "heart failure",
+      "myocardial infarction",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "hypertension",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L092": {
+    "lead_gene": "CYTH1",
+    "gene_keywords": [
+      "cytohesin-1",
+      "CYTH1",
+      "ARF1/ARF6 GEF",
+      "VEGFR2 binding",
+      "endothelial adaptor GEF"
+    ],
+    "locus_context_keywords": [
+      "endothelial biology",
+      "angiogenesis",
+      "vascular permeability",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "endothelial"
+    ],
+    "display_keywords": [
+      "ARF GEF",
+      "VEGFR2/endothelial biology",
+      "vascular biology"
+    ],
+    "search_keywords": [
+      "CYTH1",
+      "cytohesin-1",
+      "ARF1/ARF6 GEF",
+      "VEGFR2 binding",
+      "endothelial adaptor GEF",
+      "endothelial biology",
+      "angiogenesis",
+      "vascular permeability",
+      "coronary artery disease",
+      "endothelial",
+      "ARF GEF",
+      "VEGFR2/endothelial biology",
+      "vascular biology",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "Aortic/vascular",
+      "angina",
+      "aortic valve disease",
+      "atherosclerosis",
+      "hypertension",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L038": {
+    "lead_gene": "CDKN1A",
+    "gene_keywords": [
+      "CDKN1A"
+    ],
+    "locus_context_keywords": [
+      "CDKN1A"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Heart failure"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.01"
+    ],
+    "search_keywords": [
+      "CDKN1A",
+      "Arrhythmia",
+      "Heart failure",
+      "q<0.01",
+      "atrial fibrillation",
+      "heart failure",
+      "Qiao",
+      "FinnGen",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "ischaemic stroke",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L053": {
+    "lead_gene": "XPO7",
+    "gene_keywords": [
+      "XPO7"
+    ],
+    "locus_context_keywords": [
+      "XPO7"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Coronary",
+      "Pressure"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.01"
+    ],
+    "search_keywords": [
+      "XPO7",
+      "DOK2",
+      "Arrhythmia",
+      "Coronary",
+      "Pressure",
+      "q<0.01",
+      "atrial fibrillation",
+      "coronary artery disease",
+      "hypertension",
+      "FinnGen",
+      "heart failure",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L054": {
+    "lead_gene": "MMP16",
+    "gene_keywords": [
+      "MMP16"
+    ],
+    "locus_context_keywords": [
+      "MMP16"
+    ],
+    "biological_context": [
+      "Valve",
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Valve",
+      "q<0.01"
+    ],
+    "search_keywords": [
+      "MMP16",
+      "Valve",
+      "Coronary",
+      "q<0.01",
+      "coronary artery disease",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L007": {
+    "lead_gene": "IL6R",
+    "gene_keywords": [
+      "interleukin-6 receptor",
+      "IL-6R",
+      "JAK-STAT signalling",
+      "soluble IL-6R",
+      "gp130 co-receptor"
+    ],
+    "locus_context_keywords": [
+      "inflammation",
+      "CRP",
+      "Mendelian randomisation target",
+      "coronary artery disease",
+      "atrial fibrillation"
+    ],
+    "biological_context": [
+      "immune/haematopoietic",
+      "plasma/circulating"
+    ],
+    "display_keywords": [
+      "IL-6 receptor",
+      "inflammatory signalling",
+      "CAD/AF"
+    ],
+    "search_keywords": [
+      "IL6R",
+      "interleukin-6 receptor",
+      "IL-6R",
+      "JAK-STAT signalling",
+      "soluble IL-6R",
+      "gp130 co-receptor",
+      "inflammation",
+      "CRP",
+      "Mendelian randomisation target",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "immune/haematopoietic",
+      "plasma/circulating",
+      "IL-6 receptor",
+      "inflammatory signalling",
+      "CAD/AF",
+      "Coronary",
+      "Arrhythmia",
+      "angina",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "ischaemic stroke",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L051": {
+    "lead_gene": "CLDN23",
+    "gene_keywords": [
+      "CLDN23"
+    ],
+    "locus_context_keywords": [
+      "CLDN23",
+      "MSRA",
+      "SOX7"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Valve",
+      "Thrombotic"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.01"
+    ],
+    "search_keywords": [
+      "CLDN23",
+      "MSRA",
+      "SOX7",
+      "SOX7;MSRA",
+      "Pressure",
+      "Valve",
+      "Thrombotic",
+      "q<0.01",
+      "aortic valve disease",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L076": {
+    "lead_gene": "FBRSL1",
+    "gene_keywords": [
+      "FBRSL1",
+      "fibrillin-related protein",
+      "EGF-like domain repeats",
+      "ECM structural protein"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "vascular structural biology",
+      "chr12q24"
+    ],
+    "biological_context": [
+      "extracellular matrix"
+    ],
+    "display_keywords": [
+      "fibrillin-related ECM",
+      "vascular structural biology",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "FBRSL1",
+      "fibrillin-related protein",
+      "EGF-like domain repeats",
+      "ECM structural protein",
+      "coronary artery disease",
+      "vascular structural biology",
+      "chr12q24",
+      "extracellular matrix",
+      "fibrillin-related ECM",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "atrial fibrillation",
+      "angina",
+      "heart failure",
+      "hypertension",
+      "myocardial infarction",
+      "FinnGen",
+      "ischaemic stroke",
+      "venous thromboembolism",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L047": {
+    "lead_gene": "GTF2I",
+    "gene_keywords": [
+      "GTF2I"
+    ],
+    "locus_context_keywords": [
+      "7q11.23 locus",
+      "NCF1 co-locus",
+      "atrial fibrillation",
+      "blood pressure/hypertension",
+      "GTF2IRD2"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "GTF2I TF",
+      "Williams syndrome region",
+      "AF/hypertension"
+    ],
+    "search_keywords": [
+      "GTF2I",
+      "GTF2IRD2",
+      "NCF1",
+      "NCF1;GTF2IRD2",
+      "7q11.23 locus",
+      "NCF1 co-locus",
+      "atrial fibrillation",
+      "blood pressure/hypertension",
+      "chromatin/nuclear",
+      "GTF2I TF",
+      "Williams syndrome region",
+      "AF/hypertension",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "angina",
+      "heart failure",
+      "hypertension",
+      "Liu",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "GTF2IRD2",
+    "locus_context_note": ""
+  },
+  "V2L029": {
+    "lead_gene": "GRK4",
+    "gene_keywords": [
+      "GRK4",
+      "GPCR kinase",
+      "dopamine receptor phosphorylation",
+      "renal tubular dopamine signalling"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "renal function",
+      "catecholamine metabolism"
+    ],
+    "biological_context": [
+      "renal"
+    ],
+    "display_keywords": [
+      "GPCR kinase",
+      "renal dopamine signalling",
+      "blood pressure"
+    ],
+    "search_keywords": [
+      "GRK4",
+      "NOP14",
+      "GPCR kinase",
+      "dopamine receptor phosphorylation",
+      "renal tubular dopamine signalling",
+      "blood pressure/hypertension",
+      "renal function",
+      "catecholamine metabolism",
+      "renal",
+      "renal dopamine signalling",
+      "blood pressure",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L019": {
+    "lead_gene": "HOXD13",
+    "gene_keywords": [
+      "HOXD13",
+      "homeobox transcription factor",
+      "HOXD cluster",
+      "developmental regulator"
+    ],
+    "locus_context_keywords": [
+      "vascular development",
+      "chr2q31"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "homeobox TF",
+      "vascular development",
+      "HOXD cluster"
+    ],
+    "search_keywords": [
+      "HOXD13",
+      "homeobox transcription factor",
+      "HOXD cluster",
+      "developmental regulator",
+      "vascular development",
+      "chr2q31",
+      "chromatin/nuclear",
+      "homeobox TF",
+      "Coronary",
+      "Pressure",
+      "Heart failure",
+      "Valve",
+      "coronary artery disease",
+      "heart failure",
+      "hypertension",
+      "myocardial infarction",
+      "mitral valve disease",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc not assessed"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L026": {
+    "lead_gene": "MRAS",
+    "gene_keywords": [
+      "MRAS"
+    ],
+    "locus_context_keywords": [
+      "PAD",
+      "DVT/VTE",
+      "chr3q22",
+      "CEP70"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "centrosomal protein",
+      "cell cycle",
+      "PAD/DVT"
+    ],
+    "search_keywords": [
+      "MRAS",
+      "CEP70",
+      "FAIM",
+      "PAD",
+      "DVT/VTE",
+      "chr3q22",
+      "systemic/multi-tissue",
+      "centrosomal protein",
+      "cell cycle",
+      "PAD/DVT",
+      "Coronary",
+      "Pressure",
+      "Thrombotic",
+      "coronary artery disease",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "angina",
+      "myocardial infarction",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "CEP70",
+    "locus_context_note": ""
+  },
+  "V2L068": {
+    "lead_gene": "APOA5",
+    "gene_keywords": [
+      "apolipoprotein A-V",
+      "APOA5",
+      "LPL activator",
+      "VLDL metabolism",
+      "hepatic lipoprotein"
+    ],
+    "locus_context_keywords": [
+      "triglyceride levels",
+      "dyslipidaemia",
+      "coronary artery disease",
+      "PAD"
+    ],
+    "biological_context": [
+      "hepatic",
+      "plasma/circulating"
+    ],
+    "display_keywords": [
+      "apolipoprotein A5",
+      "triglyceride regulation",
+      "dyslipidaemia/CAD"
+    ],
+    "search_keywords": [
+      "APOA5",
+      "apolipoprotein A-V",
+      "LPL activator",
+      "VLDL metabolism",
+      "hepatic lipoprotein",
+      "triglyceride levels",
+      "dyslipidaemia",
+      "coronary artery disease",
+      "PAD",
+      "hepatic",
+      "plasma/circulating",
+      "apolipoprotein A5",
+      "triglyceride regulation",
+      "dyslipidaemia/CAD",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "Aortic/vascular",
+      "angina",
+      "aortic aneurysm",
+      "aortic valve disease",
+      "hypertension",
+      "Foley",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "myocardial infarction",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L043": {
+    "lead_gene": "HIBADH",
+    "gene_keywords": [
+      "HIBADH"
+    ],
+    "locus_context_keywords": [
+      "HIBADH",
+      "HOXA6"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Coronary",
+      "Thrombotic"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "HIBADH",
+      "HOXA6",
+      "Pressure",
+      "Coronary",
+      "Thrombotic",
+      "q<0.05",
+      "coronary artery disease",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "FinnGen",
+      "atrial fibrillation",
+      "transient ischaemic attack",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L005": {
+    "lead_gene": "ENSA",
+    "gene_keywords": [
+      "endosulfine",
+      "ARPP19 family",
+      "PP2A inhibitor",
+      "MASTL kinase substrate"
+    ],
+    "locus_context_keywords": [
+      "cell cycle regulation",
+      "cardiac biology",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "cardiac myocyte"
+    ],
+    "display_keywords": [
+      "PP2A regulation",
+      "cell cycle",
+      "coronary biology"
+    ],
+    "search_keywords": [
+      "ENSA",
+      "PSMD4",
+      "endosulfine",
+      "ARPP19 family",
+      "PP2A inhibitor",
+      "MASTL kinase substrate",
+      "cell cycle regulation",
+      "cardiac biology",
+      "coronary artery disease",
+      "cardiac myocyte",
+      "PP2A regulation",
+      "cell cycle",
+      "coronary biology",
+      "Coronary",
+      "Pressure",
+      "Aortic/vascular",
+      "angina",
+      "hypertension",
+      "other peripheral vascular disease (I73)",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "myocardial infarction",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L013": {
+    "lead_gene": "EFR3B",
+    "gene_keywords": [
+      "EFR3B"
+    ],
+    "locus_context_keywords": [
+      "ADCY3",
+      "DNAJC27",
+      "EFR3B"
+    ],
+    "biological_context": [
+      "Pressure"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "EFR3B",
+      "ADCY3",
+      "DNAJC27",
+      "Pressure",
+      "q<0.05",
+      "hypertension",
+      "FinnGen",
+      "atrial fibrillation",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L081": {
+    "lead_gene": "SMAD3",
+    "gene_keywords": [
+      "SMAD3"
+    ],
+    "locus_context_keywords": [
+      "SMAD3"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Coronary",
+      "Heart failure",
+      "Aortic/vascular"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "SMAD3",
+      "Arrhythmia",
+      "Coronary",
+      "Heart failure",
+      "Aortic/vascular",
+      "q<0.05",
+      "aortic aneurysm",
+      "coronary artery disease",
+      "heart failure",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "venous thromboembolism",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L066": {
+    "lead_gene": "CCDC90B",
+    "gene_keywords": [
+      "MCUB",
+      "mitochondrial calcium uniporter dominant negative",
+      "MCU complex regulatory subunit",
+      "mitochondrial calcium homeostasis"
+    ],
+    "locus_context_keywords": [
+      "cardiac energetics",
+      "ischaemic protection",
+      "coronary artery disease",
+      "blood pressure/hypertension"
+    ],
+    "biological_context": [
+      "mitochondrial"
+    ],
+    "display_keywords": [
+      "mitochondrial calcium uniporter",
+      "calcium homeostasis",
+      "cardiac energetics"
+    ],
+    "search_keywords": [
+      "CCDC90B",
+      "MCUB",
+      "mitochondrial calcium uniporter dominant negative",
+      "MCU complex regulatory subunit",
+      "mitochondrial calcium homeostasis",
+      "cardiac energetics",
+      "ischaemic protection",
+      "coronary artery disease",
+      "blood pressure/hypertension",
+      "mitochondrial",
+      "mitochondrial calcium uniporter",
+      "calcium homeostasis",
+      "Coronary",
+      "Pressure",
+      "Aortic/vascular",
+      "angina",
+      "hypertension",
+      "other peripheral vascular disease (I73)",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L079": {
+    "lead_gene": "EXD2",
+    "gene_keywords": [
+      "EXD2"
+    ],
+    "locus_context_keywords": [
+      "DVT/VTE",
+      "blood pressure/hypertension",
+      "inflammatory mRNA regulation",
+      "ZFP36L1"
+    ],
+    "biological_context": [
+      "immune/haematopoietic",
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "mRNA decay factor",
+      "post-transcriptional regulation",
+      "DVT/hypertension"
+    ],
+    "search_keywords": [
+      "EXD2",
+      "ZFP36L1",
+      "DVT/VTE",
+      "blood pressure/hypertension",
+      "inflammatory mRNA regulation",
+      "immune/haematopoietic",
+      "systemic/multi-tissue",
+      "mRNA decay factor",
+      "post-transcriptional regulation",
+      "DVT/hypertension",
+      "Coronary",
+      "Pressure",
+      "Valve",
+      "angina",
+      "aortic valve disease",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "ZFP36L1",
+    "locus_context_note": ""
+  },
+  "V2L031": {
+    "lead_gene": "EDNRA",
+    "gene_keywords": [
+      "endothelin receptor A",
+      "EDNRA",
+      "endothelin-1",
+      "vasoconstriction GPCR",
+      "G protein signalling"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "pulmonary arterial hypertension",
+      "smooth muscle biology"
+    ],
+    "biological_context": [
+      "smooth muscle",
+      "endothelial"
+    ],
+    "display_keywords": [
+      "endothelin receptor",
+      "vasoconstriction",
+      "blood pressure/PAH"
+    ],
+    "search_keywords": [
+      "EDNRA",
+      "endothelin receptor A",
+      "endothelin-1",
+      "vasoconstriction GPCR",
+      "G protein signalling",
+      "blood pressure/hypertension",
+      "coronary artery disease",
+      "pulmonary arterial hypertension",
+      "smooth muscle biology",
+      "smooth muscle",
+      "endothelial",
+      "endothelin receptor",
+      "vasoconstriction",
+      "blood pressure/PAH",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "heart failure",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "venous thromboembolism",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L061": {
+    "lead_gene": "DUSP13",
+    "gene_keywords": [
+      "DUSP13",
+      "dual-specificity phosphatase",
+      "MAPK dephosphorylation",
+      "stress kinase regulation"
+    ],
+    "locus_context_keywords": [
+      "KCNMA1",
+      "BKCa channel",
+      "large conductance potassium channel",
+      "coronary artery disease",
+      "chr10q22"
+    ],
+    "biological_context": [
+      "smooth muscle",
+      "cardiac myocyte"
+    ],
+    "display_keywords": [
+      "MAPK phosphatase",
+      "KCNMA1/BKCa channel",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "DUSP13",
+      "KCNMA1",
+      "dual-specificity phosphatase",
+      "MAPK dephosphorylation",
+      "stress kinase regulation",
+      "BKCa channel",
+      "large conductance potassium channel",
+      "coronary artery disease",
+      "chr10q22",
+      "smooth muscle",
+      "cardiac myocyte",
+      "MAPK phosphatase",
+      "KCNMA1/BKCa channel",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "atrial fibrillation",
+      "angina",
+      "hypertension",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "KCNMA1",
+    "locus_context_note": "Lead gene DUSP13 is a MAPK phosphatase; the locus window also spans KCNMA1 (BKCa channel), a strong functional candidate in vascular smooth muscle."
+  },
+  "V2L098": {
+    "lead_gene": "RASIP1",
+    "gene_keywords": [
+      "RASIP1"
+    ],
+    "locus_context_keywords": [
+      "VTE/DVT",
+      "gut microbiome modulation",
+      "ABO-region biology",
+      "von Willebrand factor",
+      "FUT2"
+    ],
+    "biological_context": [
+      "plasma/circulating",
+      "coagulation"
+    ],
+    "display_keywords": [
+      "fucosyltransferase",
+      "secretor/blood-group biology",
+      "VTE/DVT"
+    ],
+    "search_keywords": [
+      "RASIP1",
+      "FUT2",
+      "MAMSTR",
+      "VTE/DVT",
+      "gut microbiome modulation",
+      "ABO-region biology",
+      "von Willebrand factor",
+      "plasma/circulating",
+      "coagulation",
+      "fucosyltransferase",
+      "secretor/blood-group biology",
+      "Coronary",
+      "Pressure",
+      "Thrombotic",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "myocardial infarction",
+      "PLEIO",
+      "FinnGen",
+      "ischaemic stroke",
+      "venous thromboembolism",
+      "no coloc"
+    ],
+    "locus_candidate": "FUT2",
+    "locus_context_note": ""
+  },
+  "V2L040": {
+    "lead_gene": "CENPW",
+    "gene_keywords": [
+      "CENPW",
+      "centromere protein W",
+      "CENPT-CENPW complex",
+      "kinetochore assembly"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "CTAS-prioritised multi-trait signal",
+      "chr6q23"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "centromere protein",
+      "cell division",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "CENPW",
+      "centromere protein W",
+      "CENPT-CENPW complex",
+      "kinetochore assembly",
+      "coronary artery disease",
+      "CTAS-prioritised multi-trait signal",
+      "chr6q23",
+      "systemic/multi-tissue",
+      "centromere protein",
+      "cell division",
+      "Coronary",
+      "Pressure",
+      "Aortic/vascular",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "other peripheral vascular disease (I73)",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L049": {
+    "lead_gene": "DUS4L",
+    "gene_keywords": [
+      "DUS4L"
+    ],
+    "locus_context_keywords": [
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr7q22",
+      "BCAP29"
+    ],
+    "biological_context": [
+      "secretory pathway"
+    ],
+    "display_keywords": [
+      "ER membrane complex",
+      "proteostasis",
+      "atrial fibrillation/CAD"
+    ],
+    "search_keywords": [
+      "DUS4L",
+      "BCAP29",
+      "COG5",
+      "COG5;BCAP29",
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr7q22",
+      "secretory pathway",
+      "ER membrane complex",
+      "proteostasis",
+      "atrial fibrillation/CAD",
+      "Coronary",
+      "Arrhythmia",
+      "Valve",
+      "angina",
+      "mitral valve disease",
+      "PLEIO",
+      "FinnGen",
+      "hypertension",
+      "no coloc"
+    ],
+    "locus_candidate": "BCAP29",
+    "locus_context_note": ""
+  },
+  "V2L018": {
+    "lead_gene": "VAMP8",
+    "gene_keywords": [
+      "VAMP8"
+    ],
+    "locus_context_keywords": [
+      "coagulation/thrombosis",
+      "warfarin response",
+      "coronary artery disease",
+      "VTE"
+    ],
+    "biological_context": [
+      "coagulation",
+      "hepatic"
+    ],
+    "display_keywords": [
+      "vitamin K carboxylase",
+      "coagulation factors",
+      "CAD/VTE"
+    ],
+    "search_keywords": [
+      "VAMP8",
+      "MAT2A",
+      "GGCX;MAT2A",
+      "coagulation/thrombosis",
+      "warfarin response",
+      "coronary artery disease",
+      "VTE",
+      "coagulation",
+      "hepatic",
+      "vitamin K carboxylase",
+      "coagulation factors",
+      "CAD/VTE",
+      "Coronary",
+      "angina",
+      "myocardial infarction",
+      "Liu",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L073": {
+    "lead_gene": "GLI1",
+    "gene_keywords": [
+      "GLI1"
+    ],
+    "locus_context_keywords": [
+      "lipid metabolism",
+      "hepatic signalling",
+      "coronary artery disease",
+      "dyslipidaemia",
+      "INHBE"
+    ],
+    "biological_context": [
+      "hepatic"
+    ],
+    "display_keywords": [
+      "inhibin/TGF-β family",
+      "hepatokine",
+      "lipid/metabolic CVD"
+    ],
+    "search_keywords": [
+      "GLI1",
+      "LRP1",
+      "NACA",
+      "PTGES3",
+      "LRP1;PTGES3",
+      "lipid metabolism",
+      "hepatic signalling",
+      "coronary artery disease",
+      "dyslipidaemia",
+      "INHBE",
+      "hepatic",
+      "inhibin/TGF-β family",
+      "hepatokine",
+      "lipid/metabolic CVD",
+      "Coronary",
+      "Aortic/vascular",
+      "aortic aneurysm",
+      "myocardial infarction",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "INHBE",
+    "locus_context_note": ""
+  },
+  "V2L058": {
+    "lead_gene": "TMEM8B",
+    "gene_keywords": [
+      "TMEM8B"
+    ],
+    "locus_context_keywords": [
+      "GBA2",
+      "TMEM8B"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Coronary",
+      "Thrombotic"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "TMEM8B",
+      "GBA2",
+      "Pressure",
+      "Coronary",
+      "Thrombotic",
+      "q<0.05",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "myocardial infarction",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L012": {
+    "lead_gene": "SMC6",
+    "gene_keywords": [
+      "SMC6"
+    ],
+    "locus_context_keywords": [
+      "GEN1",
+      "SMC6"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Coronary",
+      "Valve"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "SMC6",
+      "GEN1",
+      "Pressure",
+      "Coronary",
+      "Valve",
+      "q<0.05",
+      "angina",
+      "hypertension",
+      "mitral valve disease",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L062": {
+    "lead_gene": "OBFC1",
+    "gene_keywords": [
+      "STN1",
+      "CTC1-STN1-TEN1 complex",
+      "telomere maintenance",
+      "CST complex",
+      "telomere replication"
+    ],
+    "locus_context_keywords": [
+      "telomere length",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "chr10q24"
+    ],
+    "biological_context": [
+      "chromatin/nuclear",
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "telomere maintenance",
+      "CST complex",
+      "CAD/AF"
+    ],
+    "search_keywords": [
+      "OBFC1",
+      "INA",
+      "RPEL1",
+      "STN1",
+      "CTC1-STN1-TEN1 complex",
+      "telomere maintenance",
+      "CST complex",
+      "telomere replication",
+      "telomere length",
+      "coronary artery disease",
+      "atrial fibrillation",
+      "chr10q24",
+      "chromatin/nuclear",
+      "systemic/multi-tissue",
+      "CAD/AF",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "Qiao",
+      "Liu",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L028": {
+    "lead_gene": "TIPARP",
+    "gene_keywords": [
+      "PARP7",
+      "TIPARP",
+      "mono-ADP-ribosyltransferase",
+      "AhR transcriptional repressor",
+      "aryl hydrocarbon receptor signalling"
+    ],
+    "locus_context_keywords": [
+      "innate immune regulation",
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr3q25"
+    ],
+    "biological_context": [
+      "chromatin/nuclear"
+    ],
+    "display_keywords": [
+      "PARP/ADP-ribosylation",
+      "AhR signalling",
+      "AF/CAD"
+    ],
+    "search_keywords": [
+      "TIPARP",
+      "LEKR1",
+      "PARP7",
+      "mono-ADP-ribosyltransferase",
+      "AhR transcriptional repressor",
+      "aryl hydrocarbon receptor signalling",
+      "innate immune regulation",
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr3q25",
+      "chromatin/nuclear",
+      "PARP/ADP-ribosylation",
+      "AhR signalling",
+      "AF/CAD",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Valve",
+      "aortic valve disease",
+      "hypertension",
+      "PLEIO",
+      "FinnGen",
+      "myocardial infarction",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L015": {
+    "lead_gene": "B3GNT2",
+    "gene_keywords": [
+      "B3GNT2"
+    ],
+    "locus_context_keywords": [
+      "atrial fibrillation",
+      "heart failure",
+      "proteostasis",
+      "chr2p14",
+      "USP34"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "deubiquitinase",
+      "Wnt/β-catenin",
+      "AF/HF"
+    ],
+    "search_keywords": [
+      "B3GNT2",
+      "PUS10",
+      "atrial fibrillation",
+      "heart failure",
+      "proteostasis",
+      "chr2p14",
+      "USP34",
+      "systemic/multi-tissue",
+      "deubiquitinase",
+      "Wnt/β-catenin",
+      "AF/HF",
+      "Arrhythmia",
+      "Heart failure",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "USP34",
+    "locus_context_note": ""
+  },
+  "V2L102": {
+    "lead_gene": "NCOA5",
+    "gene_keywords": [
+      "NCOA5"
+    ],
+    "locus_context_keywords": [
+      "NCOA5"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "NCOA5",
+      "Arrhythmia",
+      "Coronary",
+      "q<0.05",
+      "angina",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L014": {
+    "lead_gene": "CRIM1",
+    "gene_keywords": [
+      "CRIM1"
+    ],
+    "locus_context_keywords": [
+      "CRIM1"
+    ],
+    "biological_context": [
+      "Coronary",
+      "Heart failure",
+      "Aortic/vascular"
+    ],
+    "display_keywords": [
+      "Coronary",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "CRIM1",
+      "Coronary",
+      "Heart failure",
+      "Aortic/vascular",
+      "q<0.05",
+      "aortic aneurysm",
+      "heart failure",
+      "myocardial infarction",
+      "FinnGen",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "venous thromboembolism",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L035": {
+    "lead_gene": "HDGFL1",
+    "gene_keywords": [
+      "HDGFL1"
+    ],
+    "locus_context_keywords": [
+      "HDGFL1"
+    ],
+    "biological_context": [
+      "Coronary",
+      "Arrhythmia"
+    ],
+    "display_keywords": [
+      "Coronary",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "HDGFL1",
+      "Coronary",
+      "Arrhythmia",
+      "q<0.05",
+      "atrial fibrillation",
+      "angina",
+      "coronary artery disease",
+      "Liu",
+      "FinnGen",
+      "heart failure",
+      "myocardial infarction",
+      "ischaemic stroke",
+      "transient ischaemic attack",
+      "coloc not assessed"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L030": {
+    "lead_gene": "ENPEP",
+    "gene_keywords": [
+      "ENPEP"
+    ],
+    "locus_context_keywords": [
+      "ENPEP",
+      "PITX2"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Arrhythmia"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "ENPEP",
+      "PITX2",
+      "Pressure",
+      "Arrhythmia",
+      "q<0.05",
+      "atrial fibrillation",
+      "hypertension",
+      "Qiao",
+      "Liu",
+      "FinnGen",
+      "coronary artery disease",
+      "heart failure",
+      "myocardial infarction",
+      "ischaemic stroke",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L045": {
+    "lead_gene": "GCK",
+    "gene_keywords": [
+      "GCK"
+    ],
+    "locus_context_keywords": [
+      "GCK"
+    ],
+    "biological_context": [
+      "Valve",
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Valve",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "GCK",
+      "Valve",
+      "Coronary",
+      "q<0.05",
+      "coronary artery disease",
+      "PLEIO",
+      "FinnGen",
+      "hypertension",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L101": {
+    "lead_gene": "GGT7",
+    "gene_keywords": [
+      "GGT7"
+    ],
+    "locus_context_keywords": [
+      "VTE/thrombosis",
+      "heart failure",
+      "PAD",
+      "ER stress",
+      "Qiao 2025 support",
+      "EDEM2"
+    ],
+    "biological_context": [
+      "secretory pathway"
+    ],
+    "display_keywords": [
+      "ER-associated degradation (ERAD)",
+      "ER proteostasis",
+      "VTE/HF/PAD"
+    ],
+    "search_keywords": [
+      "GGT7",
+      "TP53INP2",
+      "VTE/thrombosis",
+      "heart failure",
+      "PAD",
+      "ER stress",
+      "Qiao 2025 support",
+      "EDEM2",
+      "secretory pathway",
+      "ER-associated degradation (ERAD)",
+      "ER proteostasis",
+      "VTE/HF/PAD",
+      "Coronary",
+      "Pressure",
+      "Thrombotic",
+      "angina",
+      "coronary artery disease",
+      "phlebitis/thrombophlebitis",
+      "hypertension",
+      "Qiao",
+      "PLEIO",
+      "FinnGen",
+      "myocardial infarction",
+      "ischaemic stroke",
+      "venous thromboembolism",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "EDEM2",
+    "locus_context_note": ""
+  },
+  "V2L017": {
+    "lead_gene": "CEP68",
+    "gene_keywords": [
+      "CEP68",
+      "centriole linker protein",
+      "centrosomal scaffold",
+      "cell division"
+    ],
+    "locus_context_keywords": [
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr2p21"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "centrosomal protein",
+      "cell cycle",
+      "atrial fibrillation/CAD"
+    ],
+    "search_keywords": [
+      "CEP68",
+      "centriole linker protein",
+      "centrosomal scaffold",
+      "cell division",
+      "atrial fibrillation",
+      "coronary artery disease",
+      "chr2p21",
+      "systemic/multi-tissue",
+      "centrosomal protein",
+      "cell cycle",
+      "atrial fibrillation/CAD",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "hypertension",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "venous thromboembolism",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L088": {
+    "lead_gene": "EIF5A",
+    "gene_keywords": [
+      "EIF5A",
+      "eIF5A translation factor",
+      "hypusination",
+      "polyamine-dependent translation",
+      "ribosome pause resolution"
+    ],
+    "locus_context_keywords": [
+      "coronary artery disease",
+      "CTAS-prioritised signal",
+      "chr17p13"
+    ],
+    "biological_context": [
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "translation factor",
+      "hypusination",
+      "coronary artery disease"
+    ],
+    "search_keywords": [
+      "EIF5A",
+      "eIF5A translation factor",
+      "hypusination",
+      "polyamine-dependent translation",
+      "ribosome pause resolution",
+      "coronary artery disease",
+      "CTAS-prioritised signal",
+      "chr17p13",
+      "systemic/multi-tissue",
+      "translation factor",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Valve",
+      "atrial fibrillation",
+      "hypertension",
+      "myocardial infarction",
+      "mitral valve disease",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L091": {
+    "lead_gene": "MAP2K6",
+    "gene_keywords": [
+      "MAP2K6"
+    ],
+    "locus_context_keywords": [
+      "MAP2K6"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Coronary",
+      "Aortic/vascular"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "MAP2K6",
+      "Pressure",
+      "Coronary",
+      "Aortic/vascular",
+      "q<0.05",
+      "coronary artery disease",
+      "hypertension",
+      "other peripheral vascular disease (I73)",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "angina",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L002": {
+    "lead_gene": "KDF1",
+    "gene_keywords": [
+      "KDF1"
+    ],
+    "locus_context_keywords": [
+      "KDF1"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Coronary",
+      "Aortic/vascular"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "KDF1",
+      "Pressure",
+      "Coronary",
+      "Aortic/vascular",
+      "q<0.05",
+      "angina",
+      "atherosclerosis",
+      "coronary artery disease",
+      "hypertension",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "venous thromboembolism",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L024": {
+    "lead_gene": "RPP14",
+    "gene_keywords": [
+      "RPP14"
+    ],
+    "locus_context_keywords": [
+      "RPP14"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "RPP14",
+      "Arrhythmia",
+      "Coronary",
+      "q<0.05",
+      "atrial fibrillation",
+      "myocardial infarction",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L094": {
+    "lead_gene": "MARCH2",
+    "gene_keywords": [
+      "MARCHF2",
+      "MARCH2",
+      "RING E3 ubiquitin ligase",
+      "membrane protein ubiquitination",
+      "MHC trafficking"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "stroke/cerebrovascular",
+      "chr19p13"
+    ],
+    "biological_context": [
+      "immune/haematopoietic"
+    ],
+    "display_keywords": [
+      "E3 ubiquitin ligase",
+      "membrane proteostasis",
+      "hypertension/stroke"
+    ],
+    "search_keywords": [
+      "MARCH2",
+      "MARCHF2",
+      "RING E3 ubiquitin ligase",
+      "membrane protein ubiquitination",
+      "MHC trafficking",
+      "blood pressure/hypertension",
+      "stroke/cerebrovascular",
+      "chr19p13",
+      "immune/haematopoietic",
+      "E3 ubiquitin ligase",
+      "membrane proteostasis",
+      "hypertension/stroke",
+      "Coronary",
+      "Pressure",
+      "Cerebrovascular",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "ischaemic stroke",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L021": {
+    "lead_gene": "FGD5",
+    "gene_keywords": [
+      "FGD5",
+      "FYVE-RhoGEF",
+      "Cdc42 GEF",
+      "endothelial VEGF signalling"
+    ],
+    "locus_context_keywords": [
+      "angiogenesis",
+      "vascular integrity",
+      "coronary artery disease"
+    ],
+    "biological_context": [
+      "endothelial"
+    ],
+    "display_keywords": [
+      "Rho GEF",
+      "endothelial/VEGF biology",
+      "angiogenesis"
+    ],
+    "search_keywords": [
+      "FGD5",
+      "FYVE-RhoGEF",
+      "Cdc42 GEF",
+      "endothelial VEGF signalling",
+      "angiogenesis",
+      "vascular integrity",
+      "coronary artery disease",
+      "endothelial",
+      "Rho GEF",
+      "endothelial/VEGF biology",
+      "Coronary",
+      "Pressure",
+      "Heart failure",
+      "angina",
+      "cardiomyopathy",
+      "hypertension",
+      "Liu",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "myocardial infarction",
+      "venous thromboembolism",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L100": {
+    "lead_gene": "KIZ",
+    "gene_keywords": [
+      "KIZ"
+    ],
+    "locus_context_keywords": [
+      "KIZ"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Heart failure",
+      "Aortic/vascular",
+      "Cerebrovascular"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "KIZ",
+      "Arrhythmia",
+      "Heart failure",
+      "Aortic/vascular",
+      "Cerebrovascular",
+      "q<0.05",
+      "aortic aneurysm",
+      "heart failure",
+      "transient ischaemic attack",
+      "FinnGen",
+      "atrial fibrillation",
+      "angina",
+      "hypertension",
+      "myocardial infarction",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L016": {
+    "lead_gene": "MDH1",
+    "gene_keywords": [
+      "MDH1"
+    ],
+    "locus_context_keywords": [
+      "MDH1"
+    ],
+    "biological_context": [
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Coronary",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "MDH1",
+      "Coronary",
+      "q<0.05",
+      "angina",
+      "coronary artery disease",
+      "myocardial infarction",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L067": {
+    "lead_gene": "ARHGAP42",
+    "gene_keywords": [
+      "ARHGAP42",
+      "GRAF3",
+      "RhoA GTPase-activating protein",
+      "vascular smooth muscle RhoGAP"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "vasodilation",
+      "vascular tone",
+      "smooth muscle actin"
+    ],
+    "biological_context": [
+      "smooth muscle"
+    ],
+    "display_keywords": [
+      "RhoA GAP",
+      "vascular smooth muscle tone",
+      "blood pressure"
+    ],
+    "search_keywords": [
+      "ARHGAP42",
+      "GRAF3",
+      "RhoA GTPase-activating protein",
+      "vascular smooth muscle RhoGAP",
+      "blood pressure/hypertension",
+      "vasodilation",
+      "vascular tone",
+      "smooth muscle actin",
+      "smooth muscle",
+      "RhoA GAP",
+      "vascular smooth muscle tone",
+      "blood pressure",
+      "Coronary",
+      "Pressure",
+      "Arrhythmia",
+      "Thrombotic",
+      "atrial fibrillation",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "venous embolism/thrombosis",
+      "PLEIO",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L085": {
+    "lead_gene": "DOC2A",
+    "gene_keywords": [
+      "DOC2A"
+    ],
+    "locus_context_keywords": [
+      "cardiomyopathy",
+      "MAPK stress cascade",
+      "cardiac biology",
+      "TAOK2"
+    ],
+    "biological_context": [
+      "cardiac myocyte",
+      "systemic/multi-tissue"
+    ],
+    "display_keywords": [
+      "TAO stress kinase",
+      "MAPK cascade",
+      "cardiomyopathy"
+    ],
+    "search_keywords": [
+      "DOC2A",
+      "FAM57B",
+      "cardiomyopathy",
+      "MAPK stress cascade",
+      "cardiac biology",
+      "TAOK2",
+      "cardiac myocyte",
+      "systemic/multi-tissue",
+      "TAO stress kinase",
+      "MAPK cascade",
+      "Pressure",
+      "Arrhythmia",
+      "Heart failure",
+      "atrial fibrillation",
+      "hypertension",
+      "FinnGen",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "TAOK2",
+    "locus_context_note": ""
+  },
+  "V2L001": {
+    "lead_gene": "NADK",
+    "gene_keywords": [
+      "NADK"
+    ],
+    "locus_context_keywords": [
+      "NADK",
+      "SKI"
+    ],
+    "biological_context": [
+      "Valve",
+      "Coronary"
+    ],
+    "display_keywords": [
+      "Valve",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "NADK",
+      "SKI",
+      "Valve",
+      "Coronary",
+      "q<0.05",
+      "coronary artery disease",
+      "myocardial infarction",
+      "mitral valve disease",
+      "FinnGen",
+      "hypertension",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L072": {
+    "lead_gene": "ESPL1",
+    "gene_keywords": [
+      "ESPL1"
+    ],
+    "locus_context_keywords": [
+      "ESPL1"
+    ],
+    "biological_context": [
+      "Arrhythmia",
+      "Cerebrovascular"
+    ],
+    "display_keywords": [
+      "Arrhythmia",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "ESPL1",
+      "Arrhythmia",
+      "Cerebrovascular",
+      "q<0.05",
+      "atrial fibrillation",
+      "ischaemic stroke",
+      "FinnGen",
+      "hypertension",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L059": {
+    "lead_gene": "NMRK1",
+    "gene_keywords": [
+      "NMRK1"
+    ],
+    "locus_context_keywords": [
+      "NMRK1"
+    ],
+    "biological_context": [
+      "Cerebrovascular",
+      "Aortic/vascular"
+    ],
+    "display_keywords": [
+      "Cerebrovascular",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "NMRK1",
+      "Cerebrovascular",
+      "Aortic/vascular",
+      "q<0.05",
+      "atherosclerosis",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L039": {
+    "lead_gene": "KCNK5",
+    "gene_keywords": [
+      "TASK-2",
+      "KCNK5",
+      "K2P potassium channel",
+      "pH-sensitive leak channel",
+      "vascular smooth muscle K+ channel"
+    ],
+    "locus_context_keywords": [
+      "blood pressure/hypertension",
+      "renal potassium handling",
+      "vascular tone"
+    ],
+    "biological_context": [
+      "smooth muscle",
+      "renal"
+    ],
+    "display_keywords": [
+      "K2P potassium channel",
+      "vascular smooth muscle tone",
+      "blood pressure"
+    ],
+    "search_keywords": [
+      "KCNK5",
+      "TASK-2",
+      "K2P potassium channel",
+      "pH-sensitive leak channel",
+      "vascular smooth muscle K+ channel",
+      "blood pressure/hypertension",
+      "renal potassium handling",
+      "vascular tone",
+      "smooth muscle",
+      "renal",
+      "vascular smooth muscle tone",
+      "blood pressure",
+      "Coronary",
+      "Pressure",
+      "angina",
+      "coronary artery disease",
+      "hypertension",
+      "myocardial infarction",
+      "Liu",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L065": {
+    "lead_gene": "KCNK4",
+    "gene_keywords": [
+      "KCNK4"
+    ],
+    "locus_context_keywords": [
+      "KCNK4"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Heart failure"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "KCNK4",
+      "Pressure",
+      "Heart failure",
+      "q<0.05",
+      "heart failure",
+      "hypertension",
+      "FinnGen",
+      "angina",
+      "coronary artery disease",
+      "myocardial infarction",
+      "venous thromboembolism",
+      "coloc not assessed"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L078": {
+    "lead_gene": "UPF3A",
+    "gene_keywords": [
+      "UPF3A"
+    ],
+    "locus_context_keywords": [
+      "UPF3A"
+    ],
+    "biological_context": [
+      "Valve"
+    ],
+    "display_keywords": [
+      "Valve",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "UPF3A",
+      "Valve",
+      "q<0.05",
+      "aortic valve disease",
+      "mitral valve disease",
+      "FinnGen",
+      "hypertension",
+      "coloc",
+      "colocalisation",
+      "PP4",
+      "shared signal"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L103": {
+    "lead_gene": "TAF4",
+    "gene_keywords": [
+      "TAF4"
+    ],
+    "locus_context_keywords": [
+      "TAF4"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Heart failure"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "TAF4",
+      "Pressure",
+      "Heart failure",
+      "q<0.05",
+      "cardiomyopathy",
+      "FinnGen",
+      "no coloc"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  },
+  "V2L096": {
+    "lead_gene": "NUMBL",
+    "gene_keywords": [
+      "NUMBL"
+    ],
+    "locus_context_keywords": [
+      "aortic aneurysm",
+      "vascular remodelling",
+      "coagulation",
+      "coronary artery disease",
+      "VTE",
+      "TGFB1"
+    ],
+    "biological_context": [
+      "extracellular matrix",
+      "fibroblast/remodelling"
+    ],
+    "display_keywords": [
+      "TGF-β1 cytokine",
+      "vascular remodelling/fibrosis",
+      "aneurysm/CAD/VTE"
+    ],
+    "search_keywords": [
+      "NUMBL",
+      "TGFB1",
+      "aortic aneurysm",
+      "vascular remodelling",
+      "coagulation",
+      "coronary artery disease",
+      "VTE",
+      "extracellular matrix",
+      "fibroblast/remodelling",
+      "TGF-β1 cytokine",
+      "vascular remodelling/fibrosis",
+      "aneurysm/CAD/VTE",
+      "Valve",
+      "aortic valve disease",
+      "PLEIO",
+      "FinnGen",
+      "atrial fibrillation",
+      "hypertension",
+      "no coloc"
+    ],
+    "locus_candidate": "TGFB1",
+    "locus_context_note": ""
+  },
+  "V2L032": {
+    "lead_gene": "RGS7BP",
+    "gene_keywords": [
+      "RGS7BP"
+    ],
+    "locus_context_keywords": [
+      "RGS7BP"
+    ],
+    "biological_context": [
+      "Pressure",
+      "Arrhythmia",
+      "Cerebrovascular"
+    ],
+    "display_keywords": [
+      "Pressure",
+      "q<0.05"
+    ],
+    "search_keywords": [
+      "RGS7BP",
+      "Pressure",
+      "Arrhythmia",
+      "Cerebrovascular",
+      "q<0.05",
+      "atrial fibrillation",
+      "hypertension",
+      "ischaemic stroke",
+      "FinnGen",
+      "coloc",
+      "PP3",
+      "regional",
+      "regional overlap"
+    ],
+    "locus_candidate": "",
+    "locus_context_note": ""
+  }
+}

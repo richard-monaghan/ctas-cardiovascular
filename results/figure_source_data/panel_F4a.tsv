@@ -1,0 +1,4 @@
+set	n_loci_total	n_loci_evaluable	n_not_assessed	not_assessed_loci	strong_PP4	moderate_PP4	PP3_only	neither	not_assessed	PP4_supported_loci	prop_supported_of_total	prop_supported_of_evaluable	PP3_only_prop_of_evaluable
+q<0.05	91	87	4	V2L019/HOXD13;V2L035/HDGFL1;V2L036/ATP6V1G2;V2L065/KCNK4	17	14	25	31	4	31	0.3406593406593406	0.3563218390804598	0.2873563218390804
+q<0.01	46	44	2	V2L019/HOXD13;V2L036/ATP6V1G2	12	10	9	13	2	22	0.4782608695652174	0.5	0.2045454545454545
+q<0.001	21	20	1	V2L036/ATP6V1G2	5	7	4	4	1	12	0.5714285714285714	0.6	0.2

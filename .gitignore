@@ -1,0 +1,7 @@
+# regenerated outputs (null objects ~500 MB, freeze reruns, smoke-test logs)
+work/
+*.rds
+.DS_Store
+__pycache__/
+.Rhistory
+*.tbi

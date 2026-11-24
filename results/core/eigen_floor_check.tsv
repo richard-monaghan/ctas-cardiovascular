@@ -1,0 +1,13 @@
+quantity	value
+min_eigenvalue_full_precision	0.5022736914630489
+min_eigenvalue_paper_2dp	0.50
+max_eigenvalue	1.8933668629629654
+n_eigenvalues_below_1e-10	0
+floor_activated	FALSE
+max_abs_diff_whitener_floor_vs_nofloor	0
+whitener_symmetry_max_abs	8.32667e-17
+max_abs_W_Sigma_W_minus_I	1.05437e-14
+max_abs_diff_real_CTAS_engine_vs_nofloor_whitener	0
+max_abs_diff_sigma_A_file_vs_recomputed	4.996e-16
+diag_sigma_C_all_one	TRUE
+REFERENCE_min_eigenvalue_sigma_A_raw_spearman	0.52063250032109354

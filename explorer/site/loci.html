@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loci — CTAS Explorer</title>
+  <link rel="stylesheet" href="assets/styles.css?v=4042a25e88" />
+</head>
+<body class="page-loci">
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <div class="nav-inner container">
+      <div class="nav-left">
+        <button class="nav-back" id="nav-back" aria-label="Go back" hidden>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="19" y1="12" x2="5" y2="12"/>
+            <polyline points="12 19 5 12 12 5"/>
+          </svg>
+        </button>
+        <a href="index.html" class="nav-home" aria-label="CTAS Explorer home">
+          <span class="brand-dot" aria-hidden="true"></span>
+        </a>
+        <span class="nav-title" id="nav-title">Loci</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"  class="nav-link">Explore</a></li>
+        <li><a href="loci.html"   class="nav-link">Loci</a></li>
+        <li><a href="method.html" class="nav-link">Method</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ──────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="container">
+      <p class="label mb-8" id="page-label">Loci browser</p>
+      <h1 id="page-title">Cross-trait loci</h1>
+      <p class="lead mt-16" id="page-lead">
+        91 CTAS loci at genome-wide q&lt;0.05 across 16 Pan-UKBB cardiovascular
+        traits (46 at q&lt;0.01; 21 at q&lt;0.001). Click any row to view locus details.
+      </p>
+    </div>
+  </header>
+
+  <!-- ── Filter Bar ───────────────────────────────────────── -->
+  <div class="container">
+
+    <!-- Active filter chips (hidden when no filters active) -->
+    <div id="filter-chips-area" class="filter-chips-area mt-16" hidden>
+      <span class="fac-label">Filtered by</span>
+      <div id="filter-chips-list" class="filter-chips-list" role="list" aria-label="Active filters"></div>
+      <button class="filter-clear-all" id="filter-clear-all" aria-label="Clear all filters">Clear all</button>
+    </div>
+
+    <div class="filter-bar" role="search" aria-label="Filter loci">
+
+      <div class="filter-search">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input
+          id="loci-filter"
+          type="search"
+          class="filter-input"
+          placeholder="Filter by gene, trait, or family…"
+          aria-label="Filter loci"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+
+      <span class="filter-sep" aria-hidden="true"></span>
+
+      <!-- q-threshold filters — nested BH q thresholds (one active at a time) -->
+      <div class="filter-group" role="group" aria-label="Filter by q threshold">
+        <button class="filter-btn" data-tier-filter="q05">q&lt;0.05</button>
+        <button class="filter-btn" data-tier-filter="q01">q&lt;0.01</button>
+        <button class="filter-btn" data-tier-filter="q001">q&lt;0.001</button>
+      </div>
+
+      <span class="filter-sep" aria-hidden="true"></span>
+
+      <div class="filter-group" role="group" aria-label="Additional filters">
+        <button id="filter-coloc" class="filter-btn">Coloc only</button>
+        <button id="filter-novel" class="filter-btn" title="Loci not reported in any of the four comparator studies (Qiao, Liu, Foley, PLEIO)">Not in 4 comparators</button>
+      </div>
+
+      <span id="loci-count" class="filter-count" aria-live="polite"></span>
+
+    </div>
+  </div>
+
+  <!-- ── Loci Table ───────────────────────────────────────── -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="table-wrap" role="region" aria-label="Loci table" tabindex="0">
+        <table class="loci-table" aria-label="Cross-trait loci">
+          <thead>
+            <tr>
+              <th scope="col" data-sort-col="lead_gene">Representative gene<button type="button" class="help-btn" data-help="representative" aria-label="Explain representative gene" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="tier">q tier<button type="button" class="help-btn" data-help="qtier" aria-label="Explain q tier" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="ctas_score">CTAS<button type="button" class="help-btn" data-help="ctas" aria-label="Explain CTAS" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="pr_breadth">Effective breadth<button type="button" class="help-btn" data-help="pr" aria-label="Explain effective breadth" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="top_family">Raw-profile family<button type="button" class="help-btn" data-help="top_family" aria-label="Explain the raw-profile leading family" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="prior">Prior support<button type="button" class="help-btn" data-help="prior" aria-label="Explain prior support" aria-expanded="false">?</button></th>
+              <th scope="col" data-sort-col="coloc">Coloc<button type="button" class="help-btn" data-help="coloc" aria-label="Explain colocalisation" aria-expanded="false">?</button></th>
+            </tr>
+          </thead>
+          <!-- populated by JS from data/loci.json -->
+          <tbody id="loci-tbody"></tbody>
+        </table>
+      </div>
+
+      <!-- ── Detail Panel ──────────────────────────────────── -->
+      <!-- populated by JS when a row is clicked -->
+      <div id="detail-panel" class="detail-panel" aria-label="Locus detail" aria-live="polite">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">CTAS Explorer</span>
+        <span class="footer-meta">Manuscript companion · Pan-UKBB · 16 traits</span>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#" class="footer-link-paper" style="opacity:0.45; cursor:default;" title="Manuscript link — available on publication" aria-disabled="true">Paper (forthcoming)</a>
+          <a href="index.html">Explore</a>
+          <a href="method.html">Method</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js?v=4042a25e88"></script>
+</body>
+</html>

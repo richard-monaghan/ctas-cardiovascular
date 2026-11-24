@@ -1,0 +1,9 @@
+package	version	used_by	source_of_version
+R	4.5.1 (2025-06-13), aarch64-apple-darwin20	all R code	results/core freeze session_info (env/R_session_info_primary_freeze_20261021.txt)
+Matrix	1.7-4	R/common.R (nearPD safeguard; never activated)	same
+parallel	base (4.5.1)	R/engine.R (mclapply, L'Ecuyer streams)	same
+stats	base (4.5.1)	cor, qnorm, p.adjust, lm	same
+cluster	2.1.8.2	analysis/architecture/20_architecture.R (PAM silhouette)	env/session_info_tables_20261021.txt
+coloc	5.2.3	provenance/stage3_colocalisation/v2_coloc_run.R	manuscript Methods (Software and reproducibility); no session record found
+digest	0.6.37	analysis/simulations/run_behaviour_simulations.R (Sigma and implementation checksums)	installed version on the release machine; digest md5 of Sigma reproduces the recorded 1d6baf48...
+data.table	1.17.8	provenance/stage3_colocalisation (coloc run engine)	installed version on the release machine (16 Nov 2026 re-execution)

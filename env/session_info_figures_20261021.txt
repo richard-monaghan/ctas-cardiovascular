@@ -1,0 +1,3 @@
+Python 3.13.2 | matplotlib 3.10.8 | pandas 3.0.0 | numpy 2.4.2 | scipy 1.17.0 | pymupdf 1.28.2 | python-pptx | macOS-26.6.2-x86_64-i386-64bit-Mach-O
+Renderer: Microsoft PowerPoint (code/pptx_to_pdf.sh)
+Run order: 00_hash_protected.py, 10_main_panels.py, 11_supp_panels.py, 20_assemble.py, 30_render.py, 40_validate.py, 50_manifest.py

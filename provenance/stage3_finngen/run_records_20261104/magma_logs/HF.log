@@ -1,0 +1,39 @@
+Welcome to MAGMA v1.10 (custom)
+Using flags:
+	--bfile <REFERENCE_DIR>/reference/g1000_eur
+	--pval input_lifted/HF.magma37.txt use=1,4 N=500348
+	--gene-annot annot/HF_annot.genes.annot
+	--out magma_out/HF
+
+Start time is 11:46:45, Wednesday 04 Nov 2026
+
+Loading PLINK-format data...
+Reading file <REFERENCE_DIR>/reference/g1000_eur.fam... 503 individuals read
+Reading file <REFERENCE_DIR>/reference/g1000_eur.bim... 22665064 SNPs read
+Preparing file <REFERENCE_DIR>/reference/g1000_eur.bed... 
+
+Reading SNP synonyms from file <REFERENCE_DIR>/reference/g1000_eur.synonyms (auto-detected)
+	read 6016767 mapped synonyms from file, mapping to 3921040 SNPs in the data
+	WARNING: detected 133 synonymous SNP pairs in the data
+	         skipped all synonym entries involved, synonymous SNPs are kept in analysis
+	         writing list of detected synonyms in data to supplementary log file
+Reading SNP p-values from file input_lifted/HF.magma37.txt... 
+	detected 4 variables in file
+	using variable: variable 1 (SNP id)
+	using variable: variable 4 (p-value)
+	read 20421404 lines from file, containing valid SNP p-values for 12678801 SNPs in data (62.09% of lines, 55.94% of SNPs in data)
+	WARNING: file contained 29396 SNPs (same IDs or synonyms) with duplications
+	         dropped all occurrences of each from analysis
+	         writing list of duplicated IDs to supplementary log file
+Loading gene annotation from file annot/HF_annot.genes.annot... 
+	19122 gene definitions read from file
+	found 18999 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file magma_out/HF.genes.out
+	writing intermediate output to file magma_out/HF.genes.raw
+
+
+End time is 12:00:55, Wednesday 04 Nov 2026 (elapsed: 00:14:10)

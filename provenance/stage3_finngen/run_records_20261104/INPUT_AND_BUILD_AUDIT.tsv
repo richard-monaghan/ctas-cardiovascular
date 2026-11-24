@@ -1,0 +1,22 @@
+item	value	source_or_hash	note
+raw_input_AF	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_AF.gz	286fbd7c969e02aa058fe55b15e41d9faa8f1996a9999456dcc38dbb43e14caa	bytes=817745742; GRCh38
+raw_input_Angina	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_ANGINA.gz	91c2b2ff2fb3c923f9c39ad21a08efb97508dfff8c4265118b44c779c7f3c3ab	bytes=818429468; GRCh38
+raw_input_CAD	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_CORATHER.gz	f126412c94e0ac54f239432e00fe531faf2c21c485326a23052342f596a8b827	bytes=819209960; GRCh38
+raw_input_Cardiomyopathy	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_CARDMYO.gz	e6bfd0a3e84820ad3d827acd0685ac24ba8b5df52bf611e64fbca5b52f27732e	bytes=764677250; GRCh38
+raw_input_HF	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_HEARTFAIL.gz	f0b3e7edf77e26c05b295d35d9f9e051d6cfb8bd082d7cbbbc8af81f92acf443	bytes=818078119; GRCh38
+raw_input_Hypertension	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_HYPTENS.gz	760a9588ffbcfd492f0958843fd79e1258dd35b88a13b77f4bdadf6c4e635ce7	bytes=820776666; GRCh38
+raw_input_MI	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_MI_STRICT.gz	67a3e106e074c68332441143be49f3e68739adef45e92bbffc68a0c5988cb343	bytes=817157596; GRCh38
+raw_input_Stroke	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_STR.gz	8220262c2c621686124bb16c2545689df2af45418f65959b6b4265e8ef97d184	bytes=817768475; GRCh38
+raw_input_TIA	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_TIA.gz	2392c4a3420fbf5641454acfa17753bbb743dcf9b93f1a16628d171c6c35b072	bytes=816272864; GRCh38
+raw_input_VTE	<CTAS_WORKSPACE>/CTAS_FinnGen/data/finngen_gwas/finngen_R12_I9_VTE.gz	fd6eab3ce3fbf5dfe4ac6fdcfa2639147b80ffaf38cf09e832e98eef4a6d6fcf	bytes=817160420; GRCh38
+gene_location_GRCh37	<REFERENCE_DIR>/reference/NCBI37.3.gene.loc	c628e49f6674492c61140d3df8b850cd1bf963f87df505c175d6ada743b5d845	
+LD_reference_bim_GRCh37	<REFERENCE_DIR>/reference/g1000_eur.bim	b7dfeb30cef0573059ae43dd85a6924e46e418d6fe03df6b0ff1166c79cfa131	
+LD_reference_bed	<REFERENCE_DIR>/reference/g1000_eur.bed	fadce7321e622ed20e3cb7798b3e54699c7f342752c642a14ddb982d93d8e08c	
+chain	<REFERENCE_DIR>/reference/hg38ToHg19.over.chain	e3a42338508eee1fa55ab8d0f70054079a3e84ed8c41984ffbf87b5b584d0838	
+MAGMA_binary_v1.10_custom	<CTAS_WORKSPACE>/MAGMA_Mac/magma	fc433cb76b416b64aed5dc841e682d430dd5ffeae2afb2c26b75046a1b2f94ea	
+MAGMA_flags	--annotate window=0,0; --bfile g1000_eur; --pval use=1,4 N=500348; default SNPwise-mean	logs/magma_*.stdout; magma_out/*.log	
+old_run_build_fact	FinnGen MAGMA SNP-location input had GRCh38 positions (rs429358 19:44908684); gene.loc and LD GRCh37	apoe_finngen_forensic_01/FINAL_VALIDATION_TRACE.md	
+corrected_build_fact	all ten MAGMA inputs GRCh37 after chain lift; 99.99% agreement with BIM among comparable unique rsIDs	LIFTOVER_QC.tsv	
+lift_failed_per_endpoint	~182,3xx variants (0.885% of retained) unmapped and dropped	LIFTOVER_QC.tsv	
+CTAS_gene_set	223/99/38 genes; 91/46/21 loci (unchanged)	outputs/final_c_primary_freeze_20261021/	
+prespecification_hash	743007508738233a6870b2c630cb0d773e625bb4a25d6b7ed7d53156b61d6f84	FROZEN_PRESPEC_HASH.txt	

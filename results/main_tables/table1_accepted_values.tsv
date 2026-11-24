@@ -1,0 +1,17 @@
+trait	pan_ukbb_phenotype	cases_all_ancestries	EUR_cases	EUR_controls	h2_observed_EUR_se	h2_liability_EUR_se
+Coronary artery disease (CAD)	ICD-10 I25	32,926	31,148	389,383	0.0362 (0.0032)	0.1263 (0.0112)
+Myocardial infarction (MI)	ICD-10 I21	10,595	10,141	410,390	0.0147 (0.0026)	0.1076 (0.019)
+Angina pectoris (Ang)	ICD-10 I20	22,491	21,286	399,245	0.0306 (0.0028)	0.1356 (0.0124)
+Atrial fibrillation (AF)	ICD-10 I48	19,554	19,218	401,313	0.0298 (0.0034)	0.1411 (0.0161)
+Heart failure (HF)	ICD-10 I50	7,800	7,448	413,083	0.0042 (0.0021)	0.0383 (0.0192)
+Cardiomyopathy (CMP)	ICD-10 I42	1,662	1,662	418,869	0.0015 (0.002)	0.043 (0.0573)
+Hypertension (HTN)	Phecode 401	99,977	94,311	325,488	0.0862 (0.0049)	0.1672 (0.0095)
+Atherosclerosis (Ath)	ICD-10 I70	933	933	419,598	0 (0.0021)	-0.0016 (0.0958)
+Other peripheralvascular disease (I73)	ICD-10 I73	4,930	4,778	415,753	0.0085 (0.0026)	0.1076 (0.0329)
+Ischaemic stroke (IS)	ICD-10 I63	4,437	4,275	416,256	0.0015 (0.0021)	0.0206 (0.0289)
+Transient ischaemic attack (TIA)	ICD-10 G45	3,208	3,150	417,381	0.0024 (0.0023)	0.0417 (0.04)
+Phlebitis/thrombophlebitis (I80)	ICD-10 I80	4,886	4,746	415,785	0.0091 (0.003)	0.1158 (0.0382)
+Venous embolism/thrombosis (I82)	ICD-10 I82	514	514	420,017	0.0011 (0.0021)	0.082 (0.1565)
+Aortic aneurysm (AoAn)	ICD-10 I71	2,031	2,031	418,500	0.0009 (0.0022)	0.022 (0.0538)
+Aortic valve disease (AoV)	ICD-10 I35	3,552	3,479	417,052	0.0083 (0.0022)	0.1336 (0.0354)
+Mitral valve disease (MV)	ICD-10 I34	3,216	3,153	417,378	0.0019 (0.0024)	0.033 (0.0417)

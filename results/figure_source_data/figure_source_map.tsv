@@ -1,0 +1,28 @@
+figure	panel	plotted_quantity	source_file	source_columns_or_calculation	rebuild_status
+F1	a	transformed correlation matrix; example gene z and whitened profile	sigma_C.csv; eigenvalues_C.tsv; UKBB_16trait_gene_matrix.tsv; architecture_trait_profiles.tsv	off-diagonal R; raw z = Phi^-1(1-P); w_ from final-whitener recomputation	rebuilt
+F1	b	-log10 empirical P for all genes by genomic position	final_C_gene_results_seed42.tsv; panel_manhattan/manhattan_points_genes.csv (coordinates only)	empirical_p, q_BH; x = cumulative position; boundaries = max p within each q-set; labels = q<0.001 locus representatives	rebuilt
+F2	a	observed vs nominal type-I error	ST4_CTAS_behaviour_simulations.xlsx (signed)	alpha, observed_typeI, ci_lo, ci_hi	retained with terminology updates
+F2	b	mean CTAS vs k at fixed total signal	ST4_CTAS_behaviour_simulations.xlsx (signed)	lambda, k_axes, mean_CTAS	retained with terminology updates
+F2	c	primary vs raw-Spearman counts, Jaccard, rank rho; seed stability	raw_spearman_sensitivity.tsv; seed_stability_C.tsv	seed 42 rows	replaced (score-form panel superseded)
+F3	a	eight-family share heatmap ordered by representative CTAS	outputs/final_ctas_tables_20261021/source_data/architecture_locus_ranked.tsv	S_<family> columns; ctas_rank; locus_q_tier	rebuilt (final-whitener recomputation)
+F3	b	distribution of represented families (raw P<0.01) per locus representative	architecture_raw_family_coverage_summary.tsv	pct by family_count for each nested set	rebuilt
+F4	a	locus colocalisation classes, 91 loci	nested_locus_class_summary.tsv	q<0.05 row	rebuilt
+F4	b	tissue x locus: count of traits with PP4>=0.5 and max PP4	supported_cell_detail.tsv; final_locus_colocalisation.tsv	group by locus, tissue	rebuilt (final mapped cells)
+F5	a	per-comparator and union support by nested locus set	ctas_104_locus_four_study_support_matrix.tsv	Qiao/Liu/Foley(coordinate)/PLEIO support calls; union = any	rebuilt (four studies, final sets)
+F5	b	gene-level FinnGen support (>=3 endpoints) for nested CTAS gene sets and background	gene_nested_set_summary.tsv	supported_ge3 / n_evaluable	rebuilt (gene-level headline)
+SF1	a	empirical P vs CTAS for all 19,080 genes	final_C_gene_results_seed42.tsv	CTAS, empirical_p, null_exceedance_count, p_tail_extrapolated, q_BH	replaced (10^6 null-survival panel superseded)
+SF1	b	BH step-up plot of sorted empirical P	final_C_gene_results_seed42.tsv	sorted empirical_p vs rank; lines q*i/m	replaced (old tail-model comparison superseded)
+SF1	c	eight highest-CTAS genes: exceedances, P basis, q	final_C_gene_results_seed42.tsv	top 8 by CTAS	replaced (old tail-model sensitivity table superseded)
+SF2	a	null exceedance counts for the 223 q<0.05 genes vs CTAS with q-set boundaries	final_C_gene_results_seed42.tsv	null_exceedance_count, CTAS, p_tail_extrapolated; boundary count = boundary P x (M+1)	replaced (10^6 upper-tail diagnostic superseded)
+SF2	b	mean CTAS by k and mu	ST4_CTAS_behaviour_simulations.xlsx (signed)	per_axis_mu, k_axes, mean_CTAS	retained with terminology updates
+SF2	c	mean CTAS(k)/mean CTAS(k=1)	ST4_CTAS_behaviour_simulations.xlsx (signed)	mean_CTAS by lambda, k	retained with terminology updates
+SF2	d	distribution of omitted-trait runs retained per final locus	outputs/final_ctas_tables_20261021/Supplementary Tables/ST7_CTAS_leave_one_trait_out.xlsx	locus_retention_91.n_runs_retained_q05; omitted_trait_summary	rebuilt (rebased to final 91 loci)
+SF3	a	signed whitened 16-trait profiles, rows by CTAS rank, columns grouped by family	outputs/final_ctas_tables_20261021/source_data/architecture_trait_profiles.tsv	w_<trait> columns	rebuilt (final-whitener recomputation)
+SF3	b	Hellinger PCA of family shares	architecture_ordination.tsv; architecture_structure_diagnostics.tsv	hellinger_PC1/PC2; variance explained; silhouette; stability	rebuilt (final-whitener recomputation)
+SF4	a	supported cells by trait and tissue	supported_cell_detail.tsv	count by trait, tissue	rebuilt (final mapped cells)
+SF4	b	PP3 vs PP4 for assessed cells	final_cell_colocalisation.tsv	PP3, PP4 where disposition == assessed	rebuilt (final mapped cells)
+SF4	c	matched SNPs vs PP4 (assessed cells)	final_cell_colocalisation.tsv	n_snps, PP4	rebuilt (final mapped cells)
+SF4	d	ranked maximum PP4 per evaluable locus; not-assessed listed	final_locus_colocalisation.tsv	max_PP4 where evaluable	rebuilt (final 91-locus set)
+SF5	a	exact four-comparator intersections over the 91 final loci	ctas_104_locus_four_study_support_matrix.tsv	Qiao/Liu/Foley(coordinate)/PLEIO support combinations	rebuilt (four studies, final 91 loci)
+SF5	b	gene-level FinnGen support at >=1/2/3 endpoints	gene_nested_set_summary.tsv	prop_ge1/2/3 (evaluable genes)	rebuilt (gene unit)
+SF5	c	distribution of FinnGen endpoint counts among evaluable q<0.05 genes	gene_support_distribution.tsv	set == q<0.05	rebuilt (gene unit)

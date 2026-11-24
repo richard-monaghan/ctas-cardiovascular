@@ -1,0 +1,2 @@
+seed	level	tier	only_in_this_seed	only_in_seed42	note
+	all	all			no differences: gene and locus sets identical across seeds 42, 1, 2 at q<0.05, q<0.01, q<0.001

@@ -1,0 +1,39 @@
+# Deploys the static CTAS Explorer (explorer/site/) to GitHub Pages exactly as committed.
+# Nothing is built, rewritten or minified. Requires Settings > Pages > Source = "GitHub Actions".
+name: Deploy Explorer to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "explorer/site/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload explorer/site unchanged
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: explorer/site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

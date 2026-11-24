@@ -1,0 +1,6 @@
+MD5 (panel_v2_locus_lock/v2_locus_master.csv) = 2f95c908cd8e116b923360423dd47af5
+MD5 (panel_v2_locus_lock/v2_gene_to_locus.csv) = cea95fad75419eaaf94585cd91f600dd
+MD5 (panel_v2_locus_lock/V2_LOCUS_LOCK.md) = a61491a2395849917e233c971a1c04d6
+MD5 (manuscript/tables/supplementary_table_1_101_loci.tsv) = 6bbc54f95be6ea3cc41454a8e8c31d93
+MD5 (eqtl_vignette/run_coloc_all_101.R) = 3517ab08ebf85190b401703f2184f888
+MD5 (<CTAS_V2_PAPER_WORKSPACE>/_source_assets/table1_review/Table1_trait_GWAS_provenance.csv) = 99c9d6e967e50567f6a83bd7025d837d

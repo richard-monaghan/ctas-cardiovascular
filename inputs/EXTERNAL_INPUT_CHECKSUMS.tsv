@@ -1,0 +1,2 @@
+file	sha256	lines	source	used_by
+NCBI37.3.gene.loc	c628e49f6674492c61140d3df8b850cd1bf963f87df505c175d6ada743b5d845	19427	MAGMA auxiliary files, NCBI build 37.3 gene locations (public; not redistributed)	analysis/sensitivity/run_obstructive_10trait.R; analysis/sensitivity/correct_obstructive_regional_mapping.R

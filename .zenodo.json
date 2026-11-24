@@ -1,0 +1,56 @@
+{
+  "title": "CTAS: Cross-Trait Aggregation Score for cardiovascular disease — code, derived results and Explorer",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.24499456",
+  "publication_date": "2026-11-24",
+  "description": "<p>Code, derived gene- and locus-level results, figure source data and the static interactive Explorer for the Cross-Trait Aggregation Score (CTAS), a dependence-aware gene-level test applied to 16 Pan-UK Biobank cardiovascular traits. Trait dependence is estimated as a transformed rank-correlation matrix, each gene's 16-trait profile is decorrelated by ZCA-cor whitening, and CTAS (magnitude x log2(1 + participation ratio)) is calibrated against 10^9 null draws with genome-wide Benjamini-Hochberg control: 223/99/38 genes and 91/46/21 loci at q&lt;0.05/0.01/0.001. Raw GWAS summary statistics and individual-level data are not included. We want to acknowledge the participants and investigators of the FinnGen study. Software and source code: MIT licence (Copyright (c) 2026 The University of Manchester). Project-generated derived results and documentation: CC BY 4.0. Third-party inputs retain their original terms and are not relicensed (see LICENSE_SCOPE.md).</p>",
+  "creators": [
+    {
+      "name": "Monaghan, Richard M.",
+      "affiliation": "The University of Manchester",
+      "orcid": "0000-0002-3323-1337"
+    },
+    {
+      "name": "Williams, Simon G.",
+      "affiliation": "The University of Manchester",
+      "orcid": "0000-0001-7396-4108"
+    },
+    {
+      "name": "Guo, Hui",
+      "affiliation": "The University of Manchester",
+      "orcid": "0000-0003-0282-6933"
+    },
+    {
+      "name": "Keavney, Bernard D.",
+      "affiliation": "The University of Manchester",
+      "orcid": "0000-0001-9573-0812"
+    }
+  ],
+  "keywords": [
+    "cardiovascular disease",
+    "cross-trait analysis",
+    "pleiotropy",
+    "gene-level association",
+    "genetic architecture",
+    "whitening",
+    "FinnGen"
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "notes": "Funding: This work was supported by British Heart Foundation Programme Grant RG/F/21/110050. B.D.K. was supported by a British Heart Foundation personal chair. H.G. was supported by the Engineering and Physical Sciences Research Council (EPSRC) through the Causality in Healthcare AI Hub (CHAI), grant number EP/Y028856/1. Acknowledgements: We thank Korbinian Strimmer for advice on the whitening approach. We want to acknowledge the participants and investigators of the FinnGen study.",
+  "related_identifiers": [
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://pan.ukbb.broadinstitute.org",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://github.com/richard-monaghan/ctas-cardiovascular",
+      "resource_type": "software"
+    }
+  ],
+  "communities": []
+}

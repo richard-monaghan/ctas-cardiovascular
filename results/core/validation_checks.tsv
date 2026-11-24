@@ -1,0 +1,21 @@
+check_id	expected	observed	status	evidence_file
+RUNS_6_READABLE_M1e9	6 readable, M=1e9	6 of 6	PASS	input_checksums.tsv
+GENES_19080_UNIQUE	19080 present and unique	19080 rows, 19080 unique	PASS	final_C_gene_results_seed42.tsv
+MIN_EIGEN_POSITIVE_APPROX_0.52	positive, ~0.52	0.5022736914630489 (0.50)	FAIL	eigenvalues_C.tsv
+EIGEN_FLOOR_NOT_ACTIVATED	no eigenvalue < 1e-10	0 below floor	PASS	eigen_floor_check.tsv
+WHITENERS_FLOOR_VS_NOFLOOR_EQUAL	max |diff| < 1e-10 (floor inert; only fp rounding expected)	0	PASS	eigen_floor_check.tsv
+SIGMA_A_FILE_MATCHES_RECOMPUTE	max |diff| < 1e-8	4.996e-16	PASS	eigen_floor_check.tsv
+CTAS_EQ_M_TIMES_B	CTAS == M * B (max abs diff < 1e-9)	0	PASS	final_C_gene_results_seed42.tsv
+GENE_COUNTS_223_99_38	223/99/38	223/99/38	PASS	final_C_gene_results_seed42.tsv
+LOCUS_COUNTS_91_46_21	91/46/21	91/46/21	PASS	final_C_locus_results_seed42.tsv
+NO_SIG_LOCUS_OUTSIDE_LOCKED_104	0 outside; 104 locked loci	0 outside of 91; locked universe 104	PASS	final_C_locus_results_seed42.tsv
+LOCUS_TABLE_91_ROWS	91 q<0.05 loci	91	PASS	final_C_locus_results_seed42.tsv
+LOCUS_TIER_COUNTS_MATCH	46 / 21 loci with tier<=q<0.01 / q<0.001	46/21	PASS	final_C_locus_results_seed42.tsv
+SEED_MEMBERSHIP_IDENTICAL_ALL_TIERS	sets identical, seeds 42/1/2, 3 tiers, genes+loci (symdiff 0)	total symmetric difference = 0	PASS	seed_stability_C.tsv
+A_VS_C_RANK_CORR_APPROX_0.99996	~0.99996 (|diff|<5e-6)	0.999961711	PASS	raw_spearman_sensitivity.tsv
+CORE_LOCI_16_OF_16_ALL_SEEDS	16/16 for seeds 42,1,2	16/16/16	PASS	former_core_retention.tsv
+CORE_GENES_32_OF_32_ALL_SEEDS	32/32 for seeds 42,1,2	32/32/32	PASS	former_core_retention.tsv
+STRICT_LESS_THAN_THRESHOLDS	strict < used; genes with q exactly at threshold	q==0.05: 0, q==0.01: 0, q==0.001: 0	PASS	final_C_gene_results_seed42.tsv
+INFO_MIN_EIGEN_SIGMA_A_REFERENCE	(informational) value that matches the ~0.52 expectation	Sigma_A min eigenvalue = 0.52063250032109354 (0.52); Sigma_C = 0.5022736914630489 (0.50)	INFO	eigen_floor_check.tsv
+PROTECTED_HASHES_UNCHANGED	all protected files identical before/after	187 of 187 unchanged	PASS	protected_hash_comparison.tsv
+MIN_EIGEN_C_PAPER_FACING_0.50_RESOLVED	Richard (21 Oct 2026): 0.50 is the paper-facing minimum eigenvalue for C; 0.52 was Sigma_A	Sigma_C min eigenvalue 0.5022736914630489 (0.50)	PASS	eigen_floor_check.tsv

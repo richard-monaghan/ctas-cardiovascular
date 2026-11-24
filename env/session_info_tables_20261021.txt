@@ -1,0 +1,4 @@
+Python 3.13.2 | pandas 3.0.0 | numpy 2.4.2 | scipy 1.17.0 | openpyxl 3.1.5 | python-pptx | pymupdf 1.28.2 | macOS-26.6.2-x86_64-i386-64bit-Mach-O
+R version 4.5.1 (2025-06-13) | cluster 2.1.8.2
+Renderer: Microsoft PowerPoint (AppleScript PDF export, code/pptx_to_pdf.sh)
+Scripts (run order): 00_hash_protected.py, 20_architecture.R, 21_export_loto.R, 30_table3.py, 31_tables12.py, 41_st_primary.py, 42_st3_architecture.py, 43_st4_st12.py, 44_st_sensitivity.py, 45_st_external.py, 50_render.py, 51_render_xlsx.py, 60_ledgers_validation.py, 61_manifest.py

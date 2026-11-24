@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Method — CTAS Explorer</title>
+  <link rel="stylesheet" href="assets/styles.css?v=4042a25e88" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <div class="nav-inner container">
+      <div class="nav-left">
+        <button class="nav-back" id="nav-back" aria-label="Go back" hidden>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="19" y1="12" x2="5" y2="12"/>
+            <polyline points="12 19 5 12 12 5"/>
+          </svg>
+        </button>
+        <a href="index.html" class="nav-home" aria-label="CTAS Explorer home">
+          <span class="brand-dot" aria-hidden="true"></span>
+        </a>
+        <span class="nav-title" id="nav-title">Method</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"  class="nav-link">Explore</a></li>
+        <li><a href="loci.html"   class="nav-link">Loci</a></li>
+        <li><a href="method.html" class="nav-link">Method</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ──────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="container">
+      <p class="label mb-8">Background</p>
+      <h1>Method &amp; data</h1>
+      <p class="lead mt-16">
+        How the Cross-Trait Aggregation Score (CTAS) is constructed from a
+        16-trait cardiovascular panel, how significance and the nested q-value
+        sets are defined, and what every field in a locus card means.
+      </p>
+    </div>
+  </header>
+
+  <!-- ── Approach ─────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <h4>Approach</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="method-grid">
+
+        <article class="method-card">
+          <div class="method-card-num" aria-hidden="true">1</div>
+          <h3>What CTAS is</h3>
+          <p>
+            The Cross-Trait Aggregation Score (CTAS) is a single per-gene
+            statistic that measures how much a gene's aggregate association
+            evidence across a panel of 16 Pan-UK Biobank cardiovascular traits
+            exceeds what the panel's own correlation structure would already
+            predict. CTAS places the dependence correction <em>inside</em> the
+            gene-level statistic: it whitens each gene's cross-trait evidence
+            using the transformed trait correlation matrix, keeps the positive
+            residual evidence, and combines its magnitude and its effective
+            breadth across decorrelated dimensions.
+          </p>
+          <p class="mt-8">
+            Thereafter this page uses "CTAS" or "the CTAS statistic". CTAS is a
+            prioritiser of cross-trait-relevant loci; it is not itself a test of
+            a shared causal variant or a causal-gene assignment.
+          </p>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card-num" aria-hidden="true">2</div>
+          <h3>What the Explorer shows</h3>
+          <p>
+            The Explorer brings the manuscript's locus layer into a browsable
+            form: 91 prioritised loci and their statistical locus representatives, each with its
+            CTAS value, genome-wide Benjamini–Hochberg q-value, cross-trait and
+            eight-family profile, leave-one-trait-out stability,
+            seven-tissue colocalisation, convergence with four prior
+            comparator studies and FinnGen external support. The
+            <a href="loci.html">Loci browser</a> ranks loci by CTAS and its
+            effective breadth, filters by nested q threshold, family and evidence,
+            and expands any locus to its full detail drawer.
+          </p>
+          <p class="mt-8">
+            Every field maps to a variable or analytical decision in the
+            manuscript. Significance is defined by the genome-wide BH q-value, not
+            by CTAS magnitude alone.
+          </p>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card-num" aria-hidden="true">3</div>
+          <h3>What coloc adds</h3>
+          <p>
+            Colocalisation tests whether a locus's cardiovascular association and
+            local gene-expression signal are compatible with a single shared
+            causal variant, across seven GTEx tissues. A locus is shown as
+            colocalisation-supported when the posterior probability of a shared
+            causal variant (PP4) reaches at least 0.5 in a tissue–trait context.
+          </p>
+          <p class="mt-8">
+            Colocalisation is analysed independently of CTAS and provides an
+            orthogonal, tissue-resolved layer of regulatory support. PP4 supports
+            a shared causal-variant <em>model</em>; it does not prove the causal
+            gene, the causal variant or a mechanism, and absence of PP4 support is
+            not evidence against a locus.
+          </p>
+        </article>
+
+      </div>
+
+      <!-- ── How CTAS is computed ─────────────────────────── -->
+      <div class="section-header mt-48" id="how-computed">
+        <h4>How CTAS is computed</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="method-card" style="max-width: none;">
+        <h3>From 16 traits to a calibrated gene-level statistic</h3>
+        <p>
+          <strong>Input panel and gene-level statistics.</strong> The primary
+          analysis uses Pan-UK Biobank multi-ancestry meta-analysis P values for
+          the 16 both-sex cardiovascular phenotypes listed in Table 1. For each
+          trait, gene-level association P values are computed for 19,080 genes
+          with MAGMA v1.10 (SNP-wise mean model; NCBI build 37.3 gene bodies on
+          GRCh37/hg19). This yields, for each gene, a vector of 16 one-sided
+          cross-trait evidence values.
+        </p>
+        <p class="mt-8">
+          <strong>Cross-trait dependence (transformed correlation matrix).</strong>
+          The 16 × 16 trait correlation matrix is estimated from the genome-wide
+          Spearman correlations ρ<sub>S</sub> between the traits' gene-level
+          evidence and converted to the Gaussian (Pearson) scale as
+          <strong>R = 2&nbsp;sin(πρ<sub>S</sub>/6)</strong>. Its minimum eigenvalue
+          is 0.50, so R is positive definite and no eigenvalue floor was required.
+          R parameterises the multivariate-normal working null used for both
+          whitening and simulation.
+        </p>
+        <p class="mt-8">
+          <strong>ZCA-cor whitening and positive residual evidence.</strong> Each
+          gene's clipped MAGMA P values are converted to upper-tail normal deviates
+          z and whitened with the symmetric ZCA-cor whitener. Writing the
+          eigendecomposition as <strong>R = VΛV<sup>T</sup></strong>, where V
+          contains the eigenvectors and Λ the eigenvalues, the whitener is
+          <strong>W = VΛ<sup>&#8722;1/2</sup>V<sup>T</sup></strong> and y = Wz
+          (missing values contribute no positive evidence). Symmetric whitening
+          removes the correlation expected under the fitted null without an
+          order-dependent decomposition, keeping each whitened coordinate as close
+          as possible to its original trait. Positive truncation occurs after
+          whitening: for each whitened coordinate only positive evidence is
+          retained and squared, w<sub>k</sub> = [max(0,&nbsp;y<sub>k</sub>)]<sup>2</sup>.
+        </p>
+        <p class="mt-8">
+          <strong>Magnitude, effective breadth and the CTAS product.</strong>
+          The magnitude component is the size of the positive residual evidence,
+          M = &#8730;(&#8721;<sub>k</sub> w<sub>k</sub>). The effective breadth is
+          the participation ratio of that evidence across decorrelated dimensions,
+          PR = (&#8721;<sub>k</sub> w<sub>k</sub>)<sup>2</sup> /
+          &#8721;<sub>k</sub> w<sub>k</sub><sup>2</sup>, transformed as
+          B = log<sub>2</sub>(1 + PR). CTAS is the product,
+          <strong>CTAS = M &times; B</strong>, and is set to zero when no whitened
+          coordinate is positive. Magnitude summarises the overall amount of
+          positive residual evidence; breadth describes how widely it is spread.
+          Whitened coordinates are mathematical mixtures of the traits, not named
+          independent phenotypes, so individual coordinates are not given a direct
+          biological interpretation.
+        </p>
+        <p class="mt-8">
+          Equivalently, <strong>CTAS = M &times; log<sub>2</sub>(1 + PR)</strong>.
+          CTAS is computed jointly from all 16 gene-level trait signals after
+          correcting for their expected dependence. Magnitude measures total
+          positive residual evidence, while PR measures its effective breadth
+          across decorrelated axes. Because these axes are mixtures of the
+          original traits, the named-trait profile provides biological context
+          but cannot be divided into unique additive contributions to CTAS. This
+          is a direct consequence of modelling the correlated trait panel jointly,
+          not a limitation of the score: PR is an effective breadth across
+          decorrelated axes and is not expected to equal the number of named
+          traits or clinical families.
+        </p>
+      </div>
+
+      <div class="method-card" style="max-width: none; margin-top: 16px;">
+        <h3>Calibration and false-discovery control</h3>
+        <p>
+          The primary empirical null contains <strong>10<sup>9</sup> draws</strong>
+          from the multivariate-normal working null with correlation R (fixed seed),
+          each passed through the same whitening and CTAS calculation. Empirical
+          P values use a plus-one correction, giving a direct resolution limit of
+          about 1&#215;10<sup>&#8722;9</sup>, and are adjusted across all 19,080
+          genes with the ordinary Benjamini–Hochberg false-discovery-rate procedure.
+        </p>
+        <p class="mt-8">
+          At genome-wide BH q&nbsp;&lt;&nbsp;0.05 / 0.01 / 0.001, CTAS prioritises
+          <strong>223 / 99 / 38 genes</strong>, which collapse to
+          <strong>91 / 46 / 21 prioritised loci</strong>. These are nested
+          stringency sets, not biological categories. Primary membership is
+          identical for null seeds 42, 1 and 2 at every threshold.
+        </p>
+        <p class="mt-8">
+          <strong>Raw-Spearman sensitivity.</strong> Using the raw Spearman matrix
+          in place of the transformed correlation matrix changes little: the
+          genome-wide rank correlation with the primary CTAS statistic is 0.99996.
+        </p>
+      </div>
+
+      <!-- ── Significance & nested q sets ─────────────────── -->
+      <div class="section-header mt-48">
+        <h4>Significance &amp; nested q-value sets</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <p style="font-size:0.88rem; color:var(--text-2); max-width:660px;">
+        Loci are grouped only by the most stringent genome-wide BH q threshold
+        each one attains. The three sets are <em>nested</em> — every q&nbsp;&lt;&nbsp;0.001
+        locus is also a q&nbsp;&lt;&nbsp;0.01 and q&nbsp;&lt;&nbsp;0.05 locus — and
+        they are stringency levels, not biological tiers. The landscape and the
+        <span style="white-space:nowrap">q&nbsp;tier</span> column are coloured by
+        this most-stringent threshold.
+      </p>
+
+      <div class="method-tier-grid mt-24">
+
+        <div class="method-tier-card">
+          <span class="tier-pill" style="background: #4A7A58; color: #FFF;">q&lt;0.001</span>
+          <h5>Stringent core &middot; 21 loci</h5>
+          <p>
+            The 21-locus core surviving genome-wide BH q&nbsp;&lt;&nbsp;0.001
+            (38 genes). It is the authority for the integrated evidence table.
+          </p>
+        </div>
+
+        <div class="method-tier-card">
+          <span class="tier-pill" style="background: #4A7FA5; color: #FFF;">q&lt;0.01</span>
+          <h5>46 loci</h5>
+          <p>
+            Loci surviving q&nbsp;&lt;&nbsp;0.01 (99 genes), including the 21-locus
+            core. A stricter distillation of the full set; gene-level FinnGen support
+            increases from the q&nbsp;&lt;&nbsp;0.05 to the q&nbsp;&lt;&nbsp;0.01 set
+            and again at the q&nbsp;&lt;&nbsp;0.001 set.
+          </p>
+        </div>
+
+        <div class="method-tier-card">
+          <span class="tier-pill" style="background: #7E8A9A; color: #FFF;">q&lt;0.05</span>
+          <h5>Full architecture &middot; 91 loci</h5>
+          <p>
+            All 91 prioritised loci surviving q&nbsp;&lt;&nbsp;0.05 (223 genes).
+            The complete prioritised cardiovascular architecture from which the
+            stricter sets are drawn.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- ── Loci, representatives & architecture ─────────── -->
+      <div class="section-header mt-48">
+        <h4>Loci, representatives &amp; architecture</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="method-card" style="max-width: none;">
+        <h3>Locus formation and statistical representatives</h3>
+        <p>
+          Significant genes are assigned to a prespecified stable
+          genomic-neighbourhood map built from MAGMA build-37.3 gene coordinates:
+          overlapping gene intervals are joined and neighbours within 1&nbsp;Mb
+          merged. Regions are ordered deterministically and keep fixed locus
+          identifiers, so the 91 final loci are not numbered contiguously. Within
+          each locus, the <strong>statistical locus representative</strong> is the
+          significant member gene with the highest CTAS. The representative is a
+          reproducible statistical label for the locus; it is
+          <strong>not automatically the causal gene</strong>, and neither it nor
+          any curated biological-context gene is asserted to be causal.
+        </p>
+        <p class="mt-8">
+          <strong>Member-gene evidence.</strong> Each locus card opens on the
+          highest-CTAS gene used as the statistical locus representative.
+          Multi-gene loci also expose, through a &ldquo;Compare member-gene
+          evidence&rdquo; disclosure, the individual CTAS components (CTAS,
+          magnitude M, effective breadth PR, BH q) and raw 16-trait MAGMA
+          profiles of every significant member gene. These gene-level statistics
+          are shown as descriptive views of each gene&rsquo;s own evidence and
+          are <strong>not combined into a new locus-level score</strong>; nearby
+          gene statistics are correlated and no locus-level null has been
+          calibrated. Colocalisation and FinnGen results are attached to the
+          representative/default evidence view and are not recomputed per member
+          gene.
+        </p>
+        <p class="mt-8">
+          <strong>Descriptive trait and family profiles.</strong> For descriptive
+          interpretation the 16 traits are grouped a priori into eight
+          cardiovascular families: <em>coronary</em> (coronary artery disease,
+          myocardial infarction, angina), <em>pressure</em> (hypertension),
+          <em>arrhythmia</em> (atrial fibrillation), <em>heart failure</em>
+          (heart failure, cardiomyopathy), <em>valve</em> (aortic and mitral
+          valve disease), <em>aortic/vascular</em> (aortic aneurysm, peripheral
+          artery disease, atherosclerosis), <em>cerebrovascular</em> (ischaemic
+          stroke, transient ischaemic attack) and <em>thrombotic</em> (phlebitis/thrombophlebitis,
+          ICD-10&nbsp;I80, and venous embolism/thrombosis, ICD-10&nbsp;I82; the complete three-character
+          categories, including all subcodes). A family is counted for a
+          representative when at least one of its component traits reaches
+          P&nbsp;&lt;&nbsp;0.01. The eight families are a descriptive coverage
+          summary, not discrete clusters.
+        </p>
+      </div>
+
+      <div class="method-card" style="max-width: none; margin-top: 16px;">
+        <h3>Robustness and external support</h3>
+        <p>
+          <strong>Leave-one-trait-out stability.</strong> Each of the 16 traits
+          is removed in turn; a locus is <em>ultra-stable</em> when it is retained
+          at q&nbsp;&lt;&nbsp;0.05 in all 16 leave-one-trait-out runs (47 of the 91
+          loci), meaning no single trait is responsible for its inclusion. These are
+          precomputed sensitivity analyses that used raw-Spearman working matrices
+          and 10<sup>6</sup>-draw nulls, rebased to the final 91 loci; they were not
+          rerun under the primary 10<sup>9</sup>-draw analysis.
+        </p>
+        <p class="mt-8">
+          <strong>Colocalisation.</strong> All 91 statistical locus representatives
+          were targeted for colocalisation with <code>coloc.abf</code> against
+          cis-eQTL statistics from seven GTEx tissues in the eQTL Catalogue — heart
+          left ventricle, heart atrial appendage, aorta, coronary artery, whole
+          blood, liver and kidney cortex — using European-ancestry Pan-UK Biobank
+          GWAS effect fields. Of the 91, <strong>87 were assessed and 4 were not
+          assessed</strong>: HOXD13, HDGFL1 and KCNK4 have no cis-eQTL for the
+          representative gene in any of the seven tissues, and ATP6V1G2 lies in the
+          excluded MHC. Not-assessed loci are missing evidence, never negative
+          results. Among the 87 assessed loci, 17 had strong PP4 support
+          (PP4&nbsp;&#8805;&nbsp;0.8), 14 moderate PP4 support, 25 PP3-only evidence
+          and 31 neither, so <strong>31/91</strong> loci (31/87 assessed) are
+          colocalisation-supported, across 150 tissue–trait cells at
+          PP4&nbsp;&#8805;&nbsp;0.5 (83 at PP4&nbsp;&#8805;&nbsp;0.8).
+          PP4&nbsp;&#8805;&nbsp;0.5 supports a shared-causal-variant model; it does
+          not prove a causal gene, a causal variant or a mechanism. PP3 indicates
+          both signals are present but more consistent with distinct local variants.
+        </p>
+        <p class="mt-8">
+          <strong>Prior comparator studies.</strong> Convergence is assessed against
+          four fixed studies that differ in method and reporting unit, each matched
+          on its native unit — Qiao et al. (interval overlap), Liu et al. (gene
+          symbol), Foley et al. (candidate-variant coordinate containment) and PLEIO
+          (index-variant coordinate containment). At q&nbsp;&lt;&nbsp;0.05 / 0.01 /
+          0.001 they match 19 / 15 / 8 (Qiao), 31 / 22 / 13 (Liu), 12 / 11 / 9
+          (Foley) and 48 / 28 / 17 (PLEIO) loci; the four-study union covers
+          <strong>58 / 33 / 17</strong>. This is convergence, not formal confirmation.
+          &ldquo;Not in 4 comparators&rdquo; means unmatched by all four; it is not
+          a claim of biological novelty.
+        </p>
+        <p class="mt-8">
+          <strong>FinnGen external support.</strong> CTAS genes were looked up in
+          FinnGen release 12 across ten cardiovascular endpoints (atrial
+          fibrillation, angina, coronary atherosclerosis, cardiomyopathy, heart
+          failure, hypertension, myocardial infarction, stroke, transient ischaemic
+          attack and venous thromboembolism; the FinnGen venous thromboembolism endpoint I9_VTE is defined by FinnGen and is distinct from the Pan-UK Biobank ICD-10 I82 trait). Endpoints were grouped into six clinical families (coronary, arrhythmia, myocardial,
+          pressure, cerebrovascular and venous) so that correlated endpoints, such as CAD, MI
+          and angina, are not counted as independent support; a family is supported when any
+          member endpoint has gene-level P&nbsp;&lt;&nbsp;0.01. The proportion of genes supported
+          in at least three of the six families increases from
+          <strong>49%</strong> at q&nbsp;&lt;&nbsp;0.05 (109/223) to
+          <strong>57%</strong> at q&nbsp;&lt;&nbsp;0.01 (56/99) and
+          <strong>61%</strong> at q&nbsp;&lt;&nbsp;0.001 (23/38), against
+          <strong>6%</strong> (1,154/18,701) for evaluable background genes with
+          q&nbsp;&#8805;&nbsp;0.05. Endpoint-based counts are a sensitivity analysis in the
+          supplementary table. FinnGen summary statistics (GRCh38) were converted to
+          GRCh37 before MAGMA gene analysis. The locus drawer shows separate
+          <em>representative-gene FinnGen support</em>: all 91 statistical
+          locus representatives were evaluable (a representative absent from FinnGen
+          would be shown as not evaluable, never as zero). CTAS was <em>not</em>
+          rerun or recalculated in FinnGen; this is external support and does not re-estimate
+          the statistic.
+        </p>
+      </div>
+
+      <!-- ── How to read a locus card ─────────────────────── -->
+      <div class="section-header mt-48" id="locus-card-fields">
+        <h4>How to read a locus card</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <p style="font-size:0.88rem; color:var(--text-2); max-width:640px;">
+        Clicking any row in the <a href="loci.html">Loci browser</a> opens a
+        detail drawer. The fields and badges shown there are defined below.
+      </p>
+
+      <div class="method-fields">
+
+        <div class="method-field" id="field-representative">
+          <div class="method-field-term">Representative gene</div>
+          <div class="method-field-desc">
+            The statistical locus representative: the significant member gene with
+            the highest CTAS in the locus. It labels the locus and is not
+            automatically the causal gene.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-ctas">
+          <div class="method-field-term">CTAS</div>
+          <div class="method-field-desc">
+            The CTAS statistic for the statistical locus representative:
+            magnitude &times; breadth of positive whitened residual evidence.
+            Higher values indicate more, and more broadly distributed, cross-trait
+            evidence beyond the correlated-panel background. The table bar scales
+            to the maximum CTAS across the 91 loci.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-qtier">
+          <div class="method-field-term">q tier / BH q</div>
+          <div class="method-field-desc">
+            The most stringent genome-wide Benjamini–Hochberg q threshold the
+            locus attains (q&nbsp;&lt;&nbsp;0.001, q&nbsp;&lt;&nbsp;0.01 or
+            q&nbsp;&lt;&nbsp;0.05). Significance is defined by BH q, not by CTAS
+            magnitude alone. The sets are nested stringency levels.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-effective-breadth">
+          <div class="method-field-term">Effective breadth (PR)</div>
+          <div class="method-field-desc">
+            The main-table breadth column: the participation ratio, PR&nbsp;=
+            (&#8721;<sub>k</sub> w<sub>k</sub>)<sup>2</sup> /
+            &#8721;<sub>k</sub> w<sub>k</sub><sup>2</sup>, i.e. the effective
+            breadth of the representative gene's positive evidence across the
+            decorrelated (whitened) axes. These axes are mixtures of the original
+            traits, so PR is not a count of named traits and is not expected to
+            equal a number of clinical families. It enters the score as
+            CTAS&nbsp;= M&nbsp;&times;&nbsp;log<sub>2</sub>(1&nbsp;+&nbsp;PR).
+          </div>
+        </div>
+
+        <div class="method-field" id="field-top-family">
+          <div class="method-field-term">Family labels (three complementary views)</div>
+          <div class="method-field-desc">
+            The Explorer shows up to three cardiovascular-family labels, which
+            describe different information and are <em>not</em> competing
+            classifications. All refer to the statistical representative gene; none
+            assigns causality, and none is aggregated across a locus's member genes.
+            <ul class="method-list">
+              <li><strong>Raw-profile leading family</strong> (the main-table
+                &ldquo;Raw-profile family&rdquo; column and the card headline): the
+                family carrying the strongest evidence in the representative's
+                original MAGMA profile, before dependence correction. A descriptive
+                summary of the raw trait profile &mdash; not the CTAS selection rule.
+                Loci resting on a single nominally significant trait, or with no
+                family reaching about&nbsp;30% of the raw evidence, are shown as
+                &ldquo;Broad &mdash; no dominant family&rdquo; rather than forced into
+                a family.</li>
+              <li><strong>Leading family after dependence correction</strong>
+                (secondary, in the drawer): the family carrying the largest share of
+                the representative's positive residual evidence after the fitted
+                cross-trait dependence has been discounted. A descriptive projection
+                of the whitened profile, not a separate significance test.</li>
+              <li><strong>Prior cardiovascular context</strong> (shown with the
+                biological annotation, where available): the cardiovascular context
+                previously associated with the gene or region in the curated
+                literature &mdash; contextual evidence, not a CTAS-derived result.</li>
+            </ul>
+            The full cross-family profile, including the effective family breadth
+            (Family&nbsp;N<sub>eff</sub>), is a separate descriptive summary in the
+            drawer and is distinct from the CTAS effective breadth PR.
+          </div>
+          <div class="method-callout" id="family-labels-explainer">
+            <strong>Why can the family labels differ?</strong> Raw-profile leading
+            family summarises where the representative gene's original association
+            evidence is strongest. Leading family after dependence correction
+            describes the largest residual family contribution after correlated
+            evidence has been discounted. Prior cardiovascular context summarises
+            existing knowledge about the gene or region. These are complementary
+            views, not competing classifications.
+          </div>
+        </div>
+
+        <div class="method-field">
+          <div class="method-field-term">Raw trait / family summary (drawer)</div>
+          <div class="method-field-desc">
+            Descriptive context shown in the locus drawer: the number of the 16
+            cardiovascular traits, and of the eight trait families, reaching
+            gene-level P&nbsp;&lt;&nbsp;0.01 (and P&nbsp;&lt;&nbsp;0.001) for the
+            representative, in canonical panel order. These are a compact summary of
+            the signal profile for interpretation, not additive components of CTAS.
+            The signal-profile chart shows all 16 traits in the fixed canonical panel
+            order; a very significant trait whose MAGMA P underflowed to zero is drawn
+            at the ceiling and labelled as a bound
+            (P&nbsp;&#8804;&nbsp;1&#215;10<sup>&#8722;300</sup>), not an exact value.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-coloc">
+          <div class="method-field-term">Colocalisation (PP4 / PP3)</div>
+          <div class="method-field-desc">
+            The strongest tissue–trait colocalisation for the representative. PP4
+            &#8805; 0.5 supports a shared causal-variant model; PP3 marks regional
+            overlap consistent with distinct local variants. "No PP4 support" and
+            "Not assessed" are kept distinct. Colocalisation is not proof of a
+            causal variant, gene or mechanism.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-finngen">
+          <div class="method-field-term">Representative-gene FinnGen support</div>
+          <div class="method-field-desc">
+            Whether the statistical locus representative was evaluable in FinnGen R12
+            and, if so, how many of the six clinical families (and ten cardiovascular endpoints) reach
+            gene-level P&nbsp;&lt;&nbsp;0.01, with the supported families and endpoints named.
+            Unavailable representatives are shown as not evaluable, never as zero.
+            This is a locus-level view; the gene-level FinnGen headline above
+            describes all CTAS genes. CTAS was not rerun in FinnGen.
+          </div>
+        </div>
+
+        <div class="method-field">
+          <div class="method-field-term">Ultra-stable</div>
+          <div class="method-field-desc">
+            Retained at q&nbsp;&lt;&nbsp;0.05 in all 16 leave-one-trait-out
+            sensitivity runs (raw-Spearman working matrices, 10<sup>6</sup>-draw
+            nulls) — no single trait is responsible for the locus's inclusion.
+          </div>
+        </div>
+
+        <div class="method-field">
+          <div class="method-field-term">Prior support / Not in 4 comparators</div>
+          <div class="method-field-desc">
+            Which of Qiao, Liu, Foley and PLEIO report the locus (shown in the
+            drawer), or none of the four. "Not in 4 comparators" means
+            unmatched by this multi-trait comparator set — not a claim of
+            biological novelty; many such loci carry established single-trait
+            associations.
+          </div>
+        </div>
+
+        <div class="method-field">
+          <div class="method-field-term">Canonical CVD</div>
+          <div class="method-field-desc">
+            Shown only where inherited prior-locus curation or the Table&nbsp;3 curated
+            evidence establishes the locus as an established cardiovascular locus.
+            It is not inferred from the trait profile alone.
+          </div>
+        </div>
+
+        <div class="method-field" id="field-annotation">
+          <div class="method-field-term">Biological annotation, evidence context &amp; sources</div>
+          <div class="method-field-desc">
+            Each locus carries a concise biological note (what the representative
+            encodes, prior cardiovascular genetics or function where established, and
+            what CTAS adds), clickable <strong>sources</strong> (PubMed/DOI for
+            genetics or function; NCBI&nbsp;Gene/UniProt for basic molecular function),
+            and an <strong>evidence-context</strong> label. Those labels —
+            <em>Established cross-CVD</em>, <em>Established CVD</em>,
+            <em>CVD-relevant biology</em> and <em>Emerging cross-trait</em> — describe
+            the strength and breadth of prior evidence at the locus; they are
+            <em>not</em> CTAS discovery tiers and <em>not</em> causal-gene
+            classifications. Where a nearby member gene carries the clearer prior
+            biology it is shown as a separate <strong>biological context gene</strong>.
+            Throughout, the statistical representative labels the locus and neither it
+            nor any context, comparator-matched or colocalised gene is asserted to be
+            the causal gene; direct cardiovascular-disease genetics and cardiovascular
+            risk-factor genetics are treated as distinct.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── Prior support & comparators ───────────────────── -->
+      <div class="section-header mt-48" id="annotation-context">
+        <h4>Prior comparator studies</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <p style="font-size:0.88rem; color:var(--text-2); max-width:660px; margin-bottom: 4px;">
+        Convergence is assessed against four fixed cross-trait cardiovascular
+        studies, each matched on its native unit. A locus with
+        <strong>Prior support</strong> matches at least one (the four-study union:
+        58 of 91 loci); <strong>Not in 4 comparators</strong> denotes unmatched by
+        all four (33 loci), which is convergent-support absence, not biological
+        novelty.
+      </p>
+
+      <div class="method-lit-list">
+
+        <div class="method-lit-item">
+          <div class="method-lit-ref">
+            Qiao et al.
+            <span>Multi-trait cardiovascular GWAS</span>
+          </div>
+          <div class="method-lit-desc">
+            The 38 multi-trait cardiovascular loci reported by Qiao et al. are
+            matched by direct overlap between their GRCh37 intervals and the CTAS
+            locus intervals, with no added flank (19 of 91 loci).
+          </div>
+        </div>
+
+        <div class="method-lit-item">
+          <div class="method-lit-ref">
+            Liu et al.
+            <span>Ten cardiovascular diseases</span>
+          </div>
+          <div class="method-lit-desc">
+            The unique genes reported by Liu et al. across ten cardiovascular
+            diseases are matched by HGNC-normalised gene symbol to any
+            q&nbsp;&lt;&nbsp;0.05 CTAS gene within each locus (31 of 91 loci).
+          </div>
+        </div>
+
+        <div class="method-lit-item">
+          <div class="method-lit-ref">
+            Foley et al.
+            <span>HyPrColoc, coronary heart disease</span>
+          </div>
+          <div class="method-lit-desc">
+            The 43 coronary-heart-disease colocalisation regions reported by Foley
+            et al. are matched by containment of their candidate-variant coordinates
+            within the CTAS locus intervals (12 of 91 loci).
+          </div>
+        </div>
+
+        <div class="method-lit-item">
+          <div class="method-lit-ref">
+            Lee et al.
+            <span>PLEIO, cross-phenotype index variants</span>
+          </div>
+          <div class="method-lit-desc">
+            The 625 index variants reported by PLEIO are matched by coordinate
+            containment within the CTAS locus intervals (48 of 91 loci). Because
+            phenotype coverage, methods and matching units differ across the four
+            studies, these comparisons are read as literature convergence rather
+            than strict confirmation.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── Downloads ──────────────────────────────────────── -->
+      <div class="section-header mt-48">
+        <h4>Data / Downloads</h4>
+        <span class="section-header-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="downloads-section">
+        <h3>Supplementary data</h3>
+        <p class="lead">
+          Processed data tables and analysis code will be made available alongside
+          the manuscript at publication. Files listed below are placeholders. The
+          manuscript companion page and paper DOI will be linked here on release.
+        </p>
+
+        <div class="downloads-list mt-24">
+
+          <div class="download-item">
+            <div class="download-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <div class="download-name">CTAS locus table</div>
+              <div class="download-desc">91 prioritised loci with CTAS, BH q, q tier, family profile and evidence</div>
+            </div>
+            <span class="download-status">Pending</span>
+          </div>
+
+          <div class="download-item">
+            <div class="download-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <div class="download-name">Gene assignments</div>
+              <div class="download-desc">223 significant genes (q&nbsp;&lt;&nbsp;0.05) with locus membership</div>
+            </div>
+            <span class="download-status">Pending</span>
+          </div>
+
+          <div class="download-item">
+            <div class="download-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <div class="download-name">Colocalisation results</div>
+              <div class="download-desc">Full coloc output across the seven GTEx tissues</div>
+            </div>
+            <span class="download-status">Pending</span>
+          </div>
+
+          <div class="download-item">
+            <div class="download-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <div class="download-name">Pan-UKBB summary statistics</div>
+              <div class="download-desc">Publicly available via the Pan-UKBB resource; links on publication</div>
+            </div>
+            <span class="download-status">External</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">CTAS Explorer</span>
+        <span class="footer-meta">Manuscript companion · Pan-UKBB · 16 traits</span>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#" class="footer-link-paper" style="opacity:0.45; cursor:default;" title="Manuscript link — available on publication" aria-disabled="true">Paper (forthcoming)</a>
+          <a href="index.html">Explore</a>
+          <a href="loci.html">Loci</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js?v=4042a25e88"></script>
+</body>
+</html>

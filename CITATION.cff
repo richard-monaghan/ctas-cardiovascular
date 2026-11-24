@@ -1,0 +1,57 @@
+# The bioRxiv preprint is forthcoming: add its journal/doi to preferred-citation once posted (line marked RELEASE-TIME).
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite the article below and this archive."
+title: "CTAS: Cross-Trait Aggregation Score for cardiovascular disease — code, derived results and Explorer"
+type: software
+version: "1.0.0"
+date-released: "2026-11-24"
+doi: "10.5281/zenodo.24499456"
+repository-code: "https://github.com/richard-monaghan/ctas-cardiovascular"
+url: "https://richard-monaghan.github.io/ctas-cardiovascular/"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - cardiovascular disease
+  - cross-trait analysis
+  - pleiotropy
+  - gene-level association
+  - genetic architecture
+  - whitening
+  - FinnGen
+authors:
+  - family-names: "Monaghan"
+    given-names: "Richard M."
+    orcid: "https://orcid.org/0000-0002-3323-1337"
+    affiliation: "Division of Cardiovascular Sciences, The University of Manchester"
+  - family-names: "Williams"
+    given-names: "Simon G."
+    orcid: "https://orcid.org/0000-0001-7396-4108"
+    affiliation: "Division of Cardiovascular Sciences, The University of Manchester"
+  - family-names: "Guo"
+    given-names: "Hui"
+    orcid: "https://orcid.org/0000-0003-0282-6933"
+    affiliation: "Division of Population Health, Health Services Research and Primary Care, The University of Manchester"
+  - family-names: "Keavney"
+    given-names: "Bernard D."
+    orcid: "https://orcid.org/0000-0001-9573-0812"
+    affiliation: "Division of Cardiovascular Sciences, The University of Manchester"
+contact:
+  - family-names: "Monaghan"
+    given-names: "Richard M."
+    orcid: "https://orcid.org/0000-0002-3323-1337"
+    affiliation: "Division of Cardiovascular Sciences, The University of Manchester"
+preferred-citation:
+  type: article
+  title: "Dependence-aware aggregation maps shared genetic architecture across cardiovascular traits"
+  authors:
+    - family-names: "Monaghan"
+      given-names: "Richard M."
+    - family-names: "Williams"
+      given-names: "Simon G."
+    - family-names: "Guo"
+      given-names: "Hui"
+    - family-names: "Keavney"
+      given-names: "Bernard D."
+  year: 2026
+  # bioRxiv preprint forthcoming: add journal: "bioRxiv" and its doi here once posted   # RELEASE-TIME

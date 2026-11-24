@@ -1,0 +1,55 @@
+deck	slide	heading	letter	font	size_pt	bold	left_in	ok
+F1	1	a  From correlated traits to calibrated CTAS	a	Arial	12.0	True	0.591	True
+F1	1	b  Genome-wide CTAS evidence across 19,080 genes	b	Arial	12.0	True	0.591	True
+F2	1	a  Null calibration (behaviour simulation)	a	Arial	12.0	True	0.591	True
+F2	1	b  Fixed-total-signal breadth behaviour	b	Arial	12.0	True	4.227	True
+F2	1	c  Correlation-model and seed sensitivity	c	Arial	12.0	True	0.591	True
+F3	1	a  Cardiovascular-family composition of the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+F3	1	b  Trait-family coverage across the nested locus sets	b	Arial	12.0	True	0.591	True
+F4	1	a  Colocalisation evidence across the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+F4	1	b  Tissue distribution of the 31 PP4-supported loci	b	Arial	12.0	True	0.591	True
+F5	1	a  Prior-study convergence across the nested locus sets	a	Arial	12.0	True	0.591	True
+F5	1	b  FinnGen external support for CTAS genes	b	Arial	12.0	True	0.591	True
+SF1	1	a  Empirical P against the 10⁹-draw null	a	Arial	12.0	True	0.591	True
+SF1	1	b  Benjamini–Hochberg step-up	b	Arial	12.0	True	4.227	True
+SF1	1	c  Most extreme genes and tail treatment	c	Arial	12.0	True	0.591	True
+SF2	1	a  Direct resolution of significant genes	a	Arial	12.0	True	0.591	True
+SF2	1	b  Breadth × strength behaviour	b	Arial	12.0	True	4.227	True
+SF2	1	c  Fixed-total-signal response	c	Arial	12.0	True	0.591	True
+SF2	1	d  Leave-one-trait-out retention	d	Arial	12.0	True	4.227	True
+SF3	1	a  Signed whitened profiles of the 91 locus representatives	a	Arial	12.0	True	0.591	True
+SF3	1	b  Ordination of family composition	b	Arial	12.0	True	0.591	True
+SF4	1	a  Supported cells by trait and tissue	a	Arial	12.0	True	0.591	True
+SF4	1	b  Shared- vs distinct-variant evidence	b	Arial	12.0	True	4.227	True
+SF4	1	c  Matched-SNP count and PP4 (descriptive)	c	Arial	12.0	True	0.591	True
+SF4	1	d  Locus-level maximum PP4	d	Arial	12.0	True	4.227	True
+SF5	1	a  Four-comparator intersections across the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+SF5	1	b  Gene-level FinnGen support by threshold	b	Arial	12.0	True	0.591	True
+SF5	1	c  FinnGen endpoint counts, q<0.05 genes	c	Arial	12.0	True	4.227	True
+Main	1	a  From correlated traits to calibrated CTAS	a	Arial	12.0	True	0.591	True
+Main	1	b  Genome-wide CTAS evidence across 19,080 genes	b	Arial	12.0	True	0.591	True
+Main	2	a  Null calibration (behaviour simulation)	a	Arial	12.0	True	0.591	True
+Main	2	b  Fixed-total-signal breadth behaviour	b	Arial	12.0	True	4.227	True
+Main	2	c  Correlation-model and seed sensitivity	c	Arial	12.0	True	0.591	True
+Main	3	a  Cardiovascular-family composition of the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+Main	3	b  Trait-family coverage across the nested locus sets	b	Arial	12.0	True	0.591	True
+Main	4	a  Colocalisation evidence across the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+Main	4	b  Tissue distribution of the 31 PP4-supported loci	b	Arial	12.0	True	0.591	True
+Main	5	a  Prior-study convergence across the nested locus sets	a	Arial	12.0	True	0.591	True
+Main	5	b  FinnGen external support for CTAS genes	b	Arial	12.0	True	0.591	True
+Supp	1	a  Empirical P against the 10⁹-draw null	a	Arial	12.0	True	0.591	True
+Supp	1	b  Benjamini–Hochberg step-up	b	Arial	12.0	True	4.227	True
+Supp	1	c  Most extreme genes and tail treatment	c	Arial	12.0	True	0.591	True
+Supp	2	a  Direct resolution of significant genes	a	Arial	12.0	True	0.591	True
+Supp	2	b  Breadth × strength behaviour	b	Arial	12.0	True	4.227	True
+Supp	2	c  Fixed-total-signal response	c	Arial	12.0	True	0.591	True
+Supp	2	d  Leave-one-trait-out retention	d	Arial	12.0	True	4.227	True
+Supp	3	a  Signed whitened profiles of the 91 locus representatives	a	Arial	12.0	True	0.591	True
+Supp	3	b  Ordination of family composition	b	Arial	12.0	True	0.591	True
+Supp	4	a  Supported cells by trait and tissue	a	Arial	12.0	True	0.591	True
+Supp	4	b  Shared- vs distinct-variant evidence	b	Arial	12.0	True	4.227	True
+Supp	4	c  Matched-SNP count and PP4 (descriptive)	c	Arial	12.0	True	0.591	True
+Supp	4	d  Locus-level maximum PP4	d	Arial	12.0	True	4.227	True
+Supp	5	a  Four-comparator intersections across the 91 CTAS loci	a	Arial	12.0	True	0.591	True
+Supp	5	b  Gene-level FinnGen support by threshold	b	Arial	12.0	True	0.591	True
+Supp	5	c  FinnGen endpoint counts, q<0.05 genes	c	Arial	12.0	True	4.227	True

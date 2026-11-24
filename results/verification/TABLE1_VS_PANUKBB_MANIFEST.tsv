@@ -1,0 +1,113 @@
+trait	pan_ukbb_code	field	table1_value	manifest_column	manifest_value_full	manifest_rounded	match
+Coronary artery disease (CAD)	icd10-I25-both_sexes	cases_all_ancestries	32926.0	n_cases_full_cohort_both_sexes	32926.0	32926.0	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	EUR_cases	31148.0	n_cases_EUR	31148.0	31148.0	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	EUR_controls	389383.0	n_controls_EUR	389383.0	389383.0	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	h2_observed_EUR	0.0362	sldsc_25bin_h2_observed_EUR	0.0362	0.0362	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	h2_observed_se_EUR	0.0032	sldsc_25bin_h2_observed_se_EUR	0.0032	0.0032	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	h2_liability_EUR	0.1263	sldsc_25bin_h2_liability_EUR	0.12629	0.1263	True
+Coronary artery disease (CAD)	icd10-I25-both_sexes	h2_liability_se_EUR	0.0112	sldsc_25bin_h2_liability_se_EUR	0.011163	0.0112	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	cases_all_ancestries	10595.0	n_cases_full_cohort_both_sexes	10595.0	10595.0	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	EUR_cases	10141.0	n_cases_EUR	10141.0	10141.0	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	EUR_controls	410390.0	n_controls_EUR	410390.0	410390.0	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	h2_observed_EUR	0.0147	sldsc_25bin_h2_observed_EUR	0.0147	0.0147	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	h2_observed_se_EUR	0.0026	sldsc_25bin_h2_observed_se_EUR	0.0026	0.0026	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	h2_liability_EUR	0.1076	sldsc_25bin_h2_liability_EUR	0.10759	0.1076	True
+Myocardial infarction (MI)	icd10-I21-both_sexes	h2_liability_se_EUR	0.019	sldsc_25bin_h2_liability_se_EUR	0.01903	0.019	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	cases_all_ancestries	22491.0	n_cases_full_cohort_both_sexes	22491.0	22491.0	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	EUR_cases	21286.0	n_cases_EUR	21286.0	21286.0	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	EUR_controls	399245.0	n_controls_EUR	399245.0	399245.0	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	h2_observed_EUR	0.0306	sldsc_25bin_h2_observed_EUR	0.0306	0.0306	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	h2_observed_se_EUR	0.0028	sldsc_25bin_h2_observed_se_EUR	0.0028	0.0028	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	h2_liability_EUR	0.1356	sldsc_25bin_h2_liability_EUR	0.13557	0.1356	True
+Angina pectoris (Ang)	icd10-I20-both_sexes	h2_liability_se_EUR	0.0124	sldsc_25bin_h2_liability_se_EUR	0.012405	0.0124	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	cases_all_ancestries	19554.0	n_cases_full_cohort_both_sexes	19554.0	19554.0	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	EUR_cases	19218.0	n_cases_EUR	19218.0	19218.0	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	EUR_controls	401313.0	n_controls_EUR	401313.0	401313.0	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	h2_observed_EUR	0.0298	sldsc_25bin_h2_observed_EUR	0.0298	0.0298	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	h2_observed_se_EUR	0.0034	sldsc_25bin_h2_observed_se_EUR	0.0034	0.0034	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	h2_liability_EUR	0.1411	sldsc_25bin_h2_liability_EUR	0.1411	0.1411	True
+Atrial fibrillation (AF)	icd10-I48-both_sexes	h2_liability_se_EUR	0.0161	sldsc_25bin_h2_liability_se_EUR	0.016099	0.0161	True
+Heart failure (HF)	icd10-I50-both_sexes	cases_all_ancestries	7800.0	n_cases_full_cohort_both_sexes	7800.0	7800.0	True
+Heart failure (HF)	icd10-I50-both_sexes	EUR_cases	7448.0	n_cases_EUR	7448.0	7448.0	True
+Heart failure (HF)	icd10-I50-both_sexes	EUR_controls	413083.0	n_controls_EUR	413083.0	413083.0	True
+Heart failure (HF)	icd10-I50-both_sexes	h2_observed_EUR	0.0042	sldsc_25bin_h2_observed_EUR	0.0042	0.0042	True
+Heart failure (HF)	icd10-I50-both_sexes	h2_observed_se_EUR	0.0021	sldsc_25bin_h2_observed_se_EUR	0.0021	0.0021	True
+Heart failure (HF)	icd10-I50-both_sexes	h2_liability_EUR	0.0383	sldsc_25bin_h2_liability_EUR	0.03833	0.0383	True
+Heart failure (HF)	icd10-I50-both_sexes	h2_liability_se_EUR	0.0192	sldsc_25bin_h2_liability_se_EUR	0.019165	0.0192	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	cases_all_ancestries	1662.0	n_cases_full_cohort_both_sexes	1662.0	1662.0	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	EUR_cases	1662.0	n_cases_EUR	1662.0	1662.0	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	EUR_controls	418869.0	n_controls_EUR	418869.0	418869.0	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	h2_observed_EUR	0.0015	sldsc_25bin_h2_observed_EUR	0.0015	0.0015	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	h2_observed_se_EUR	0.002	sldsc_25bin_h2_observed_se_EUR	0.002	0.002	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	h2_liability_EUR	0.043	sldsc_25bin_h2_liability_EUR	0.042988	0.043	True
+Cardiomyopathy (CMP)	icd10-I42-both_sexes	h2_liability_se_EUR	0.0573	sldsc_25bin_h2_liability_se_EUR	0.057317	0.0573	True
+Hypertension (HTN)	phecode-401-both_sexes	cases_all_ancestries	99977.0	n_cases_full_cohort_both_sexes	99977.0	99977.0	True
+Hypertension (HTN)	phecode-401-both_sexes	EUR_cases	94311.0	n_cases_EUR	94311.0	94311.0	True
+Hypertension (HTN)	phecode-401-both_sexes	EUR_controls	325488.0	n_controls_EUR	325488.0	325488.0	True
+Hypertension (HTN)	phecode-401-both_sexes	h2_observed_EUR	0.0862	sldsc_25bin_h2_observed_EUR	0.0862	0.0862	True
+Hypertension (HTN)	phecode-401-both_sexes	h2_observed_se_EUR	0.0049	sldsc_25bin_h2_observed_se_EUR	0.0049	0.0049	True
+Hypertension (HTN)	phecode-401-both_sexes	h2_liability_EUR	0.1672	sldsc_25bin_h2_liability_EUR	0.16722	0.1672	True
+Hypertension (HTN)	phecode-401-both_sexes	h2_liability_se_EUR	0.0095	sldsc_25bin_h2_liability_se_EUR	0.0095054	0.0095	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	cases_all_ancestries	933.0	n_cases_full_cohort_both_sexes	933.0	933.0	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	EUR_cases	933.0	n_cases_EUR	933.0	933.0	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	EUR_controls	419598.0	n_controls_EUR	419598.0	419598.0	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	h2_observed_EUR	0.0	sldsc_25bin_h2_observed_EUR	-3.489e-05	-0.0	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	h2_observed_se_EUR	0.0021	sldsc_25bin_h2_observed_se_EUR	0.0021	0.0021	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	h2_liability_EUR	-0.0016	sldsc_25bin_h2_liability_EUR	-0.0015918	-0.0016	True
+Atherosclerosis (Ath)	icd10-I70-both_sexes	h2_liability_se_EUR	0.0958	sldsc_25bin_h2_liability_se_EUR	0.095807	0.0958	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	cases_all_ancestries	4930.0	n_cases_full_cohort_both_sexes	4930.0	4930.0	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	EUR_cases	4778.0	n_cases_EUR	4778.0	4778.0	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	EUR_controls	415753.0	n_controls_EUR	415753.0	415753.0	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	h2_observed_EUR	0.0085	sldsc_25bin_h2_observed_EUR	0.0085	0.0085	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	h2_observed_se_EUR	0.0026	sldsc_25bin_h2_observed_se_EUR	0.0026	0.0026	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	h2_liability_EUR	0.1076	sldsc_25bin_h2_liability_EUR	0.10761	0.1076	True
+Other peripheralvascular disease (I73)	icd10-I73-both_sexes	h2_liability_se_EUR	0.0329	sldsc_25bin_h2_liability_se_EUR	0.032916	0.0329	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	cases_all_ancestries	4437.0	n_cases_full_cohort_both_sexes	4437.0	4437.0	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	EUR_cases	4275.0	n_cases_EUR	4275.0	4275.0	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	EUR_controls	416256.0	n_controls_EUR	416256.0	416256.0	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	h2_observed_EUR	0.0015	sldsc_25bin_h2_observed_EUR	0.0015	0.0015	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	h2_observed_se_EUR	0.0021	sldsc_25bin_h2_observed_se_EUR	0.0021	0.0021	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	h2_liability_EUR	0.0206	sldsc_25bin_h2_liability_EUR	0.020648	0.0206	True
+Ischaemic stroke (IS)	icd10-I63-both_sexes	h2_liability_se_EUR	0.0289	sldsc_25bin_h2_liability_se_EUR	0.028907	0.0289	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	cases_all_ancestries	3208.0	n_cases_full_cohort_both_sexes	3208.0	3208.0	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	EUR_cases	3150.0	n_cases_EUR	3150.0	3150.0	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	EUR_controls	417381.0	n_controls_EUR	417381.0	417381.0	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	h2_observed_EUR	0.0024	sldsc_25bin_h2_observed_EUR	0.0024	0.0024	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	h2_observed_se_EUR	0.0023	sldsc_25bin_h2_observed_se_EUR	0.0023	0.0023	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	h2_liability_EUR	0.0417	sldsc_25bin_h2_liability_EUR	0.041696	0.0417	True
+Transient ischaemic attack (TIA)	icd10-G45-both_sexes	h2_liability_se_EUR	0.04	sldsc_25bin_h2_liability_se_EUR	0.039959	0.04	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	cases_all_ancestries	4886.0	n_cases_full_cohort_both_sexes	4886.0	4886.0	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	EUR_cases	4746.0	n_cases_EUR	4746.0	4746.0	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	EUR_controls	415785.0	n_controls_EUR	415785.0	415785.0	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	h2_observed_EUR	0.0091	sldsc_25bin_h2_observed_EUR	0.0091	0.0091	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	h2_observed_se_EUR	0.003	sldsc_25bin_h2_observed_se_EUR	0.003	0.003	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	h2_liability_EUR	0.1158	sldsc_25bin_h2_liability_EUR	0.11579	0.1158	True
+Phlebitis/thrombophlebitis (I80)	icd10-I80-both_sexes	h2_liability_se_EUR	0.0382	sldsc_25bin_h2_liability_se_EUR	0.038172	0.0382	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	cases_all_ancestries	514.0	n_cases_full_cohort_both_sexes	514.0	514.0	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	EUR_cases	514.0	n_cases_EUR	514.0	514.0	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	EUR_controls	420017.0	n_controls_EUR	420017.0	420017.0	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	h2_observed_EUR	0.0011	sldsc_25bin_h2_observed_EUR	0.0011	0.0011	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	h2_observed_se_EUR	0.0021	sldsc_25bin_h2_observed_se_EUR	0.0021	0.0021	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	h2_liability_EUR	0.082	sldsc_25bin_h2_liability_EUR	0.081988	0.082	True
+Venous embolism/thrombosis (I82)	icd10-I82-both_sexes	h2_liability_se_EUR	0.1565	sldsc_25bin_h2_liability_se_EUR	0.15652	0.1565	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	cases_all_ancestries	2031.0	n_cases_full_cohort_both_sexes	2031.0	2031.0	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	EUR_cases	2031.0	n_cases_EUR	2031.0	2031.0	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	EUR_controls	418500.0	n_controls_EUR	418500.0	418500.0	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	h2_observed_EUR	0.0009	sldsc_25bin_h2_observed_EUR	0.0009	0.0009	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	h2_observed_se_EUR	0.0022	sldsc_25bin_h2_observed_se_EUR	0.0022	0.0022	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	h2_liability_EUR	0.022	sldsc_25bin_h2_liability_EUR	0.022007	0.022	True
+Aortic aneurysm (AoAn)	icd10-I71-both_sexes	h2_liability_se_EUR	0.0538	sldsc_25bin_h2_liability_se_EUR	0.053796	0.0538	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	cases_all_ancestries	3552.0	n_cases_full_cohort_both_sexes	3552.0	3552.0	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	EUR_cases	3479.0	n_cases_EUR	3479.0	3479.0	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	EUR_controls	417052.0	n_controls_EUR	417052.0	417052.0	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	h2_observed_EUR	0.0083	sldsc_25bin_h2_observed_EUR	0.0083	0.0083	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	h2_observed_se_EUR	0.0022	sldsc_25bin_h2_observed_se_EUR	0.0022	0.0022	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	h2_liability_EUR	0.1336	sldsc_25bin_h2_liability_EUR	0.13362	0.1336	True
+Aortic valve disease (AoV)	icd10-I35-both_sexes	h2_liability_se_EUR	0.0354	sldsc_25bin_h2_liability_se_EUR	0.035417	0.0354	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	cases_all_ancestries	3216.0	n_cases_full_cohort_both_sexes	3216.0	3216.0	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	EUR_cases	3153.0	n_cases_EUR	3153.0	3153.0	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	EUR_controls	417378.0	n_controls_EUR	417378.0	417378.0	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	h2_observed_EUR	0.0019	sldsc_25bin_h2_observed_EUR	0.0019	0.0019	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	h2_observed_se_EUR	0.0024	sldsc_25bin_h2_observed_se_EUR	0.0024	0.0024	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	h2_liability_EUR	0.033	sldsc_25bin_h2_liability_EUR	0.032985	0.033	True
+Mitral valve disease (MV)	icd10-I34-both_sexes	h2_liability_se_EUR	0.0417	sldsc_25bin_h2_liability_se_EUR	0.041665	0.0417	True
